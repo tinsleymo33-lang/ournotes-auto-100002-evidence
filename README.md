@@ -1,7 +1,7 @@
 # OurNotes-Auto · 100002 壱雫空 EXPERT 同步偏移取证材料
 
-对应 issue：**壱雫空 EXPERT（100002）每局提前约 1.14 秒下按、7~10 秒生命值归零：小节线采样点不足导致过滤被静默关闭**
-→ https://github.com/ChissaQAQ/OurNotes-Auto/issues （发帖后此链接会更新）
+对应 issue：**[bug] 壱雫空 EXPERT（100002）每局提前约 1.14 秒下按、7~10 秒归零：小节线采样点不足导致过滤被静默关闭**
+→ https://github.com/ChissaQAQ/OurNotes-Auto/issues/120
 
 环境：OurNotes-Auto 0.2.3.2 / Windows 11 / MuMu 12 6.8.7.0 实例 1 / Android 15 / 1280×720 60fps / minitouch。
 
