@@ -1,0 +1,459 @@
+2026-11-02 20:11:06 I ournotes_auto.planner: 拟人化：5 个点击故意打成 GREAT（目标 5 个，判定总数 965）
+2026-11-02 20:11:06 D ournotes_auto.player.session: 谱面 100111_expert：557 个手势 / 5713 个触控事件，首音符 2909ms（1 个）
+2026-11-02 20:11:06 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 20:11:10 D ournotes_auto.player.sync: 同步成功：86 个样本，44fps，τ=0.835s，残差 2.97ms，外推误差 ±1.07ms，距到达 185ms，歌曲开始于 +1.2s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 5.54→3.57ms，比截图早 8.6ms，到达时刻 +1.1ms；剔除离群样本 y=196（+16.9ms））
+2026-11-02 20:13:05 D ournotes_auto.player.executor: 执行完毕：5713 事件 / 4854 批，平均迟到 0.00ms，最大 0.12ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 20:13:06 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100111_expert_20261102_201305.npz
+2026-11-02 20:13:42 I ournotes_auto.player.session: 连击数监视：1155 张截图，断连 0 次
+2026-11-02 20:13:44 I ournotes_auto.player.session: 连击数截图已保存到 debug\combo\100111_expert_20261102_201342.npz
+2026-11-02 20:13:44 D ournotes_auto.nav.navigator: 画面：结算
+2026-11-02 20:13:45 D ournotes_auto.nav.navigator: 点击 ⇄ (1212,396)
+2026-11-02 20:13:47 D ournotes_auto.records: Odd Dice EXPERT：FAST/SLOW 260/240，相对全局近况（-0.08）最近 3 局 -0.31/+0.14/+0.04，有正有负，不按谱面修正
+2026-11-02 20:13:47 D ournotes_auto.records: FAST=260 SLOW=240 → offset 修正 +0.0ms（学习值 -6.1ms）
+2026-11-02 20:13:47 I ournotes_auto.runner: 结果：P960 G5 g0 B0 M0  COMBO 965  FAST/SLOW 260/240 FC
+2026-11-02 20:13:48 D ournotes_auto.runner: 本进程 2171 MB，电脑内存可用 17.9/39.8 GB，提交 30.6/47.8 GB
+2026-11-02 20:13:48 D ournotes_auto.nav.navigator: 点击 下一步 (1088,658)
+2026-11-02 20:13:49 D ournotes_auto.nav.navigator: 画面：结算-奖励
+2026-11-02 20:13:49 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 20:13:50 D ournotes_auto.nav.navigator: 画面：结算-羁绊（下一步）
+2026-11-02 20:13:50 D ournotes_auto.nav.navigator: 点击 下一步 (1104,660)
+2026-11-02 20:13:51 D ournotes_auto.nav.navigator: 画面：结算-羁绊
+2026-11-02 20:13:51 D ournotes_auto.nav.navigator: 点击 再次演出 (1074,658)
+2026-11-02 20:13:52 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 20:13:53 I ournotes_auto: 收到停止请求
+2026-11-02 20:13:53 I ournotes_auto.runner: 共演奏 5 局：FC 4，AP 0，失败 0
+2026-11-02 20:13:53 I ournotes_auto.stats: 本次运行 23 分钟；累计运行 361.5 小时、演奏 8,331 局（AP 7,555），成就 47 / 89
+2026-11-02 20:14:02 D ournotes_auto: OurNotes-Auto 0.2.3.2（Python 3.14.7，Windows-11-10.0.26100-SP0，13th Gen Intel(R) Core(TM) i9-13900HX，内存可用 18.3/39.8 GB，提交 29.4/47.8 GB）：--json-log --stdin-stop -v --set device.backend=mumu --set device.mumu_path=D:/mumu/MuMuPlayer --set device.instance=1 --set device.adb_path=D:/mumu/MuMuPlayer/nx_main/adb.exe --set device.adb_serial=127.0.0.1:16416 --set device.touch=minitouch --set loop.max_plays=0 --set loop.challenge=false --set loop.arena=false --set loop.studio_claim_hours=0 --set loop.daily_claim_time= --set play.touch.great_ratio=0.0 --set play.touch.jitter_ms=0 --set play.touch.position_jitter=0 --set game.difficulty=expert --set loop.song_mode=list --set loop.song_list=壱雫空 --set game.lb_cost=null --set game.lb_auto=true --set loop.until_lb_empty=false --set game.lb_refill=false --set loop.wait_lb=false --set loop.use_skip=false --set notify.channel= run --watch-combo
+2026-11-02 20:14:02 I ournotes_auto: 开始重复刷歌
+2026-11-02 20:14:03 I ournotes_auto: 游戏已在运行
+2026-11-02 20:14:03 D ournotes_auto.charts.catalog: 曲目目录：94 首，466 个曲名
+2026-11-02 20:14:03 D ournotes_auto.device.mumu_ipc: 已连接 MuMu 实例 1（handle 1，display 4，1280x720）
+2026-11-02 20:14:03 D ournotes_auto.nav.jacket: 封面：93 张
+2026-11-02 20:14:03 I ournotes_auto.device.minitouch: 触摸屏：display 4 的 /dev/input/event16
+2026-11-02 20:14:03 D ournotes_auto.device.minitouch: minitouch 已启动（127.0.0.1:16416，/dev/input/event16，display 4，触摸屏 720x1280）
+2026-11-02 20:14:04 D ournotes_auto.context: 设备：实例 1（127.0.0.1:16416），MuMu 6.8.7.0，CPU 4 核，内存 6 GB，帧率 60，画面 1280x720，触控 minitouch，Android 15，游戏 1.1.0
+2026-11-02 20:14:04 I ournotes_auto.sources: 歌单：壱雫空 → 壹雫空（100002）EXPERT
+2026-11-02 20:14:05 D ournotes_auto.nav.navigator: 画面：激奏舞台
+2026-11-02 20:14:05 D ournotes_auto.nav.navigator: 点击 返回 (56,38)
+2026-11-02 20:14:07 D ournotes_auto.nav.navigator: 画面：演出首页
+2026-11-02 20:14:07 D ournotes_auto.nav.navigator: 点击 自由演出 (873,348)
+2026-11-02 20:14:08 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 20:14:08 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 20:14:08 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 20:14:09 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 20:14:10 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 20:14:12 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 20:14:12 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 20:14:12 D ournotes_auto.nav.navigator: 点击 消耗LB (920,665)
+2026-11-02 20:14:13 D ournotes_auto.nav.navigator: 画面：LB消耗设置
+2026-11-02 20:14:14 I ournotes_auto.nav.navigator: LB 消耗最大能选 3 个
+2026-11-02 20:14:14 D ournotes_auto.nav.navigator: 点击 消耗 0 (317,292)
+2026-11-02 20:14:15 D ournotes_auto.nav.navigator: LB 消耗设置为 0（持有 0）
+2026-11-02 20:14:15 D ournotes_auto.nav.navigator: 点击 OK (640,658)
+2026-11-02 20:14:16 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 20:14:16 I ournotes_auto.nav.navigator: LB 用完了：消耗 0 接着打，恢复后再消耗
+2026-11-02 20:14:16 D ournotes_auto.nav.navigator: 点击 LIVE START (1140,648)
+2026-11-02 20:14:17 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 20:14:20 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 20:14:20 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 20:14:20 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 20:14:20 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 20:14:21 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 190→318 行只用了 24ms），重新等待静止
+2026-11-02 20:14:21 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 20:14:23 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 172→496 行只用了 211ms），重新等待静止
+2026-11-02 20:14:24 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 20:14:26 D ournotes_auto.player.sync: 同步成功：38 个样本，38fps，τ=0.835s，残差 2.86ms，外推误差 ±1.69ms，距到达 179ms，歌曲开始于 +4.3s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 4.89→2.86ms，比截图早 8.5ms，到达时刻 -3.1ms；首音符是 FLICK，按配置把歌曲开始时刻推后 150ms）
+2026-11-02 20:14:31 E ournotes_auto.player.guard: 生命值降到 0，整体对不上了，停止触控
+2026-11-02 20:14:31 D ournotes_auto.player.executor: 执行完毕：31 事件 / 23 批，平均迟到 0.00ms，最大 0.01ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 20:14:31 I ournotes_auto.player.session: 判定生命值归零时的画面已保存到 debug\life\100002_expert_20261102_201431.png
+2026-11-02 20:14:32 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_201431.npz
+2026-11-02 20:14:32 W ournotes_auto.player.session: 生命值归零：本局同步 38 个样本 / 38fps / 外推误差 ±1.7ms / 歌曲开始于 +4.3s；打到谱面 8258ms 就没了（若远早于谱面结尾，多半是整首错位）
+2026-11-02 20:14:32 W ournotes_auto.runner: 演奏中生命值降到 0（整体对不上了），从头重试（第 1 次）
+2026-11-02 20:14:32 D ournotes_auto.nav.navigator: 点击 暂停 (1240,38)
+2026-11-02 20:14:33 D ournotes_auto.nav.navigator: 画面：暂停
+2026-11-02 20:14:33 D ournotes_auto.nav.navigator: 点击 重试 (640,576)
+2026-11-02 20:14:33 D ournotes_auto.nav.navigator: 画面：重试确认
+2026-11-02 20:14:33 D ournotes_auto.nav.navigator: 点击 确认重试 (781,570)
+2026-11-02 20:14:34 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 20:14:34 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 20:14:34 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 20:14:35 D ournotes_auto.player.sync: 同步成功：39 个样本，40fps，τ=0.839s，残差 2.86ms，外推误差 ±1.67ms，距到达 183ms，歌曲开始于 -1.0s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 5.70→4.00ms，比截图早 9.1ms，到达时刻 +0.8ms；剔除离群样本 y=148（+17.9ms）；首音符是 FLICK，按配置把歌曲开始时刻推后 150ms）
+2026-11-02 20:14:39 E ournotes_auto.player.guard: 生命值降到 0，整体对不上了，停止触控
+2026-11-02 20:14:39 D ournotes_auto.player.executor: 执行完毕：30 事件 / 22 批，平均迟到 0.00ms，最大 0.00ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 20:14:39 I ournotes_auto.player.session: 判定生命值归零时的画面已保存到 debug\life\100002_expert_20261102_201439.png
+2026-11-02 20:14:40 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_201439.npz
+2026-11-02 20:14:40 W ournotes_auto.player.session: 生命值归零：本局同步 39 个样本 / 40fps / 外推误差 ±1.7ms / 歌曲开始于 -1.0s；打到谱面 7057ms 就没了（若远早于谱面结尾，多半是整首错位）
+2026-11-02 20:14:40 W ournotes_auto.runner: 演奏中生命值降到 0（整体对不上了），从头重试（第 2 次）
+2026-11-02 20:14:40 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 20:14:40 D ournotes_auto.nav.navigator: 点击 暂停 (1240,38)
+2026-11-02 20:14:40 D ournotes_auto.nav.navigator: 画面：暂停
+2026-11-02 20:14:40 D ournotes_auto.nav.navigator: 点击 重试 (639,576)
+2026-11-02 20:14:41 D ournotes_auto.nav.navigator: 画面：重试确认
+2026-11-02 20:14:41 D ournotes_auto.nav.navigator: 点击 确认重试 (782,570)
+2026-11-02 20:14:41 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 20:14:41 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 20:14:41 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 20:14:41 D ournotes_auto.player.sync: 跟踪区出现非音符变化（轨迹不符合音符运动，残差 118ms），换回沿用的基线
+2026-11-02 20:14:42 D ournotes_auto.player.sync: 同步成功：20 个样本，36fps，τ=0.837s，残差 0.82ms，外推误差 ±2.60ms，距到达 172ms，歌曲开始于 -1.0s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 5.11→0.82ms，比截图早 8.5ms，到达时刻 -2.5ms；首音符是 FLICK，按配置把歌曲开始时刻推后 150ms）
+2026-11-02 20:14:46 E ournotes_auto.player.guard: 生命值降到 0，整体对不上了，停止触控
+2026-11-02 20:14:47 D ournotes_auto.player.executor: 执行完毕：31 事件 / 23 批，平均迟到 0.00ms，最大 0.01ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 20:14:47 I ournotes_auto.player.session: 判定生命值归零时的画面已保存到 debug\life\100002_expert_20261102_201447.png
+2026-11-02 20:14:47 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_201447.npz
+2026-11-02 20:14:47 W ournotes_auto.player.session: 生命值归零：本局同步 20 个样本 / 36fps / 外推误差 ±2.6ms / 歌曲开始于 -1.0s；打到谱面 7071ms 就没了（若远早于谱面结尾，多半是整首错位）
+2026-11-02 20:14:47 E ournotes_auto.runner: 本局放弃：演奏中生命值降到 0（整体对不上了）
+2026-11-02 20:14:47 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 20:15:01 D ournotes_auto: OurNotes-Auto 0.2.3.2（Python 3.14.7，Windows-11-10.0.26100-SP0，13th Gen Intel(R) Core(TM) i9-13900HX，内存可用 18.0/39.8 GB，提交 29.3/47.8 GB）：--json-log --stdin-stop -v --set device.backend=mumu --set device.mumu_path=D:/mumu/MuMuPlayer --set device.instance=1 --set device.adb_path=D:/mumu/MuMuPlayer/nx_main/adb.exe --set device.adb_serial=127.0.0.1:16416 --set device.touch=minitouch --set loop.max_plays=0 --set loop.challenge=false --set loop.arena=false --set loop.studio_claim_hours=0 --set loop.daily_claim_time= --set play.touch.great_ratio=0.0 --set play.touch.jitter_ms=0 --set play.touch.position_jitter=0 --set game.difficulty=expert --set loop.song_mode=list --set loop.song_list=壱雫空 --set game.lb_cost=null --set game.lb_auto=true --set loop.until_lb_empty=false --set game.lb_refill=false --set loop.wait_lb=false --set loop.use_skip=false --set notify.channel= run --watch-combo
+2026-11-02 20:15:01 I ournotes_auto: 开始重复刷歌
+2026-11-02 20:15:01 I ournotes_auto: 游戏已在运行
+2026-11-02 20:15:02 D ournotes_auto.charts.catalog: 曲目目录：94 首，466 个曲名
+2026-11-02 20:15:02 D ournotes_auto.nav.jacket: 封面：93 张
+2026-11-02 20:15:02 D ournotes_auto.device.mumu_ipc: 已连接 MuMu 实例 1（handle 1，display 4，1280x720）
+2026-11-02 20:15:02 I ournotes_auto.device.minitouch: 触摸屏：display 4 的 /dev/input/event16
+2026-11-02 20:15:02 D ournotes_auto.device.minitouch: minitouch 已启动（127.0.0.1:16416，/dev/input/event16，display 4，触摸屏 720x1280）
+2026-11-02 20:15:02 D ournotes_auto.context: 设备：实例 1（127.0.0.1:16416），MuMu 6.8.7.0，CPU 4 核，内存 6 GB，帧率 60，画面 1280x720，触控 minitouch，Android 15，游戏 1.1.0
+2026-11-02 20:15:02 I ournotes_auto.sources: 歌单：壱雫空 → 壹雫空（100002）EXPERT
+2026-11-02 20:15:03 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 20:15:04 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 20:15:04 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 20:15:05 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 20:15:05 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 20:15:07 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 20:15:07 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 20:15:07 D ournotes_auto.nav.navigator: 点击 消耗LB (920,665)
+2026-11-02 20:15:08 D ournotes_auto.nav.navigator: 画面：LB消耗设置
+2026-11-02 20:15:10 I ournotes_auto.nav.navigator: LB 消耗最大能选 3 个
+2026-11-02 20:15:10 D ournotes_auto.nav.navigator: LB 消耗设置为 0（持有 0）
+2026-11-02 20:15:10 D ournotes_auto.nav.navigator: 点击 OK (640,658)
+2026-11-02 20:15:11 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 20:15:11 I ournotes_auto.nav.navigator: LB 用完了：消耗 0 接着打，恢复后再消耗
+2026-11-02 20:15:11 D ournotes_auto.nav.navigator: 点击 LIVE START (1140,648)
+2026-11-02 20:15:12 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 20:15:14 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 20:15:14 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 20:15:14 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 20:15:15 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 20:15:17 D ournotes_auto.player.sync: 前沿停在第 254 行 0.5s 不动，不是音符，重新找首音符
+2026-11-02 20:15:19 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 310→410 行只用了 27ms），重新等待静止
+2026-11-02 20:15:19 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 20:15:21 D ournotes_auto.player.sync: 同步成功：37 个样本，37fps，τ=0.836s，残差 2.78ms，外推误差 ±1.75ms，距到达 194ms，歌曲开始于 +5.1s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 4.96→2.78ms，比截图早 9.1ms，到达时刻 -0.2ms；首音符是 FLICK，按配置把歌曲开始时刻推后 150ms）
+2026-11-02 20:15:26 E ournotes_auto.player.guard: 生命值降到 0，整体对不上了，停止触控
+2026-11-02 20:15:26 D ournotes_auto.player.executor: 执行完毕：30 事件 / 22 批，平均迟到 0.00ms，最大 0.00ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 20:15:26 I ournotes_auto.player.session: 判定生命值归零时的画面已保存到 debug\life\100002_expert_20261102_201526.png
+2026-11-02 20:15:28 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_201526.npz
+2026-11-02 20:15:28 W ournotes_auto.player.session: 生命值归零：本局同步 37 个样本 / 37fps / 外推误差 ±1.8ms / 歌曲开始于 +5.1s；打到谱面 8229ms 就没了（若远早于谱面结尾，多半是整首错位）
+2026-11-02 20:15:28 W ournotes_auto.runner: 演奏中生命值降到 0（整体对不上了），从头重试（第 1 次）
+2026-11-02 20:15:28 D ournotes_auto.nav.navigator: 点击 暂停 (1240,38)
+2026-11-02 20:15:28 D ournotes_auto.nav.navigator: 画面：暂停
+2026-11-02 20:15:28 D ournotes_auto.nav.navigator: 点击 重试 (639,576)
+2026-11-02 20:15:29 D ournotes_auto.nav.navigator: 画面：重试确认
+2026-11-02 20:15:29 D ournotes_auto.nav.navigator: 点击 确认重试 (781,570)
+2026-11-02 20:15:29 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 20:15:29 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 20:15:29 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 20:15:30 D ournotes_auto.player.sync: 同步成功：37 个样本，39fps，τ=0.835s，残差 0.89ms，外推误差 ±1.72ms，距到达 193ms，歌曲开始于 -1.0s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 5.01→4.10ms，比截图早 9.0ms，到达时刻 +0.2ms；剔除离群样本 y=258（-17.2ms）；剔除离群样本 y=338（-16.9ms）；首音符是 FLICK，按配置把歌曲开始时刻推后 150ms）
+2026-11-02 20:15:34 E ournotes_auto.player.guard: 生命值降到 0，整体对不上了，停止触控
+2026-11-02 20:15:34 D ournotes_auto.player.executor: 执行完毕：30 事件 / 22 批，平均迟到 0.00ms，最大 0.00ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 20:15:34 I ournotes_auto.player.session: 判定生命值归零时的画面已保存到 debug\life\100002_expert_20261102_201534.png
+2026-11-02 20:15:35 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_201534.npz
+2026-11-02 20:15:35 W ournotes_auto.player.session: 生命值归零：本局同步 37 个样本 / 39fps / 外推误差 ±1.7ms / 歌曲开始于 -1.0s；打到谱面 7077ms 就没了（若远早于谱面结尾，多半是整首错位）
+2026-11-02 20:15:35 W ournotes_auto.runner: 演奏中生命值降到 0（整体对不上了），从头重试（第 2 次）
+2026-11-02 20:15:35 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 20:15:35 D ournotes_auto.nav.navigator: 点击 暂停 (1240,38)
+2026-11-02 20:15:35 D ournotes_auto.nav.navigator: 画面：暂停
+2026-11-02 20:15:35 D ournotes_auto.nav.navigator: 点击 重试 (640,576)
+2026-11-02 20:15:36 D ournotes_auto.nav.navigator: 画面：重试确认
+2026-11-02 20:15:36 D ournotes_auto.nav.navigator: 点击 确认重试 (782,570)
+2026-11-02 20:15:36 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 20:15:36 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 20:15:36 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 20:15:37 D ournotes_auto.player.sync: 同步成功：34 个样本，33fps，τ=0.835s，残差 3.06ms，外推误差 ±1.73ms，距到达 176ms，歌曲开始于 -1.0s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 5.02→3.06ms，比截图早 8.2ms，到达时刻 -0.6ms；首音符是 FLICK，按配置把歌曲开始时刻推后 150ms）
+2026-11-02 20:15:42 E ournotes_auto.player.guard: 生命值降到 0，整体对不上了，停止触控
+2026-11-02 20:15:42 D ournotes_auto.player.executor: 执行完毕：31 事件 / 23 批，平均迟到 0.00ms，最大 0.00ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 20:15:42 I ournotes_auto.player.session: 判定生命值归零时的画面已保存到 debug\life\100002_expert_20261102_201542.png
+2026-11-02 20:15:42 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_201542.npz
+2026-11-02 20:15:42 W ournotes_auto.player.session: 生命值归零：本局同步 34 个样本 / 33fps / 外推误差 ±1.7ms / 歌曲开始于 -1.0s；打到谱面 7038ms 就没了（若远早于谱面结尾，多半是整首错位）
+2026-11-02 20:15:42 E ournotes_auto.runner: 本局放弃：演奏中生命值降到 0（整体对不上了）
+2026-11-02 20:15:42 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 20:17:15 D ournotes_auto.nav.navigator: 画面：LIVE CLEAR
+2026-11-02 20:17:15 D ournotes_auto.nav.navigator: 点击 LIVE CLEAR (640,650)
+2026-11-02 20:17:16 D ournotes_auto.nav.navigator: 画面：结算
+2026-11-02 20:17:17 D ournotes_auto.nav.navigator: 点击 ⇄ (1212,396)
+2026-11-02 20:17:21 D ournotes_auto.runner: 本进程 1768 MB，电脑内存可用 18.7/39.8 GB，提交 29.8/47.8 GB
+2026-11-02 20:17:21 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 20:17:22 D ournotes_auto.nav.navigator: 画面：结算-奖励
+2026-11-02 20:17:22 D ournotes_auto.nav.navigator: 点击 下一步 (1088,659)
+2026-11-02 20:17:23 D ournotes_auto.nav.navigator: 画面：结算-羁绊（下一步）
+2026-11-02 20:17:23 D ournotes_auto.nav.navigator: 点击 下一步 (1104,660)
+2026-11-02 20:17:25 D ournotes_auto.nav.navigator: 画面：结算-羁绊
+2026-11-02 20:17:25 D ournotes_auto.nav.navigator: 点击 再次演出 (1074,658)
+2026-11-02 20:17:26 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 20:17:28 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 20:17:29 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 20:17:29 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 20:17:30 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 20:17:30 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 20:17:33 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 20:17:33 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 20:17:33 D ournotes_auto.nav.navigator: 点击 消耗LB (920,665)
+2026-11-02 20:17:34 D ournotes_auto.nav.navigator: 画面：LB消耗设置
+2026-11-02 20:17:34 D ournotes_auto.nav.navigator: 点击 消耗 1 (317,236)
+2026-11-02 20:17:35 D ournotes_auto.nav.navigator: LB 消耗设置为 1（持有 1）
+2026-11-02 20:17:35 D ournotes_auto.nav.navigator: 点击 OK (640,658)
+2026-11-02 20:17:36 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 20:17:36 I ournotes_auto.nav.navigator: LB 持有 1 个：每局消耗 1 个
+2026-11-02 20:17:36 D ournotes_auto.nav.navigator: 点击 LIVE START (1140,648)
+2026-11-02 20:17:37 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 20:17:39 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 20:17:39 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 20:17:39 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 20:17:40 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 20:17:41 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 250→342 行只用了 34ms），重新等待静止
+2026-11-02 20:17:42 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 20:17:44 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 310→412 行只用了 28ms），重新等待静止
+2026-11-02 20:17:44 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 20:17:46 D ournotes_auto.player.sync: 同步成功：32 个样本，33fps，τ=0.835s，残差 1.17ms，外推误差 ±1.88ms，距到达 184ms，歌曲开始于 +4.9s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 4.92→1.17ms，比截图早 7.4ms，到达时刻 +0.6ms；首音符是 FLICK，按配置把歌曲开始时刻推后 150ms）
+2026-11-02 20:17:51 E ournotes_auto.player.guard: 生命值降到 0，整体对不上了，停止触控
+2026-11-02 20:17:51 D ournotes_auto.player.executor: 执行完毕：31 事件 / 23 批，平均迟到 0.00ms，最大 0.01ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 20:17:51 I ournotes_auto.player.session: 判定生命值归零时的画面已保存到 debug\life\100002_expert_20261102_201751.png
+2026-11-02 20:17:54 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_201751.npz
+2026-11-02 20:17:54 W ournotes_auto.player.session: 生命值归零：本局同步 32 个样本 / 33fps / 外推误差 ±1.9ms / 歌曲开始于 +4.9s；打到谱面 9182ms 就没了（若远早于谱面结尾，多半是整首错位）
+2026-11-02 20:17:54 W ournotes_auto.runner: 演奏中生命值降到 0（整体对不上了），从头重试（第 1 次）
+2026-11-02 20:17:54 D ournotes_auto.nav.navigator: 点击 暂停 (1240,38)
+2026-11-02 20:17:54 D ournotes_auto.nav.navigator: 画面：暂停
+2026-11-02 20:17:54 D ournotes_auto.nav.navigator: 点击 重试 (640,576)
+2026-11-02 20:17:55 D ournotes_auto.nav.navigator: 画面：重试确认
+2026-11-02 20:17:55 D ournotes_auto.nav.navigator: 点击 确认重试 (781,570)
+2026-11-02 20:17:55 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 20:17:55 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 20:17:55 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 20:17:56 D ournotes_auto.player.sync: 同步成功：33 个样本，33fps，τ=0.835s，残差 6.23ms，外推误差 ±1.79ms，距到达 190ms，歌曲开始于 -1.0s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 7.22→6.23ms，比截图早 7.8ms，到达时刻 -1.5ms；首音符是 FLICK，按配置把歌曲开始时刻推后 150ms）
+2026-11-02 20:18:00 E ournotes_auto.player.guard: 生命值降到 0，整体对不上了，停止触控
+2026-11-02 20:18:00 D ournotes_auto.player.executor: 执行完毕：30 事件 / 22 批，平均迟到 0.00ms，最大 0.00ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 20:18:01 I ournotes_auto.player.session: 判定生命值归零时的画面已保存到 debug\life\100002_expert_20261102_201800.png
+2026-11-02 20:18:01 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_201801.npz
+2026-11-02 20:18:01 W ournotes_auto.player.session: 生命值归零：本局同步 33 个样本 / 33fps / 外推误差 ±1.8ms / 歌曲开始于 -1.0s；打到谱面 7012ms 就没了（若远早于谱面结尾，多半是整首错位）
+2026-11-02 20:18:01 W ournotes_auto.runner: 演奏中生命值降到 0（整体对不上了），从头重试（第 2 次）
+2026-11-02 20:18:01 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 20:18:01 D ournotes_auto.nav.navigator: 点击 暂停 (1240,38)
+2026-11-02 20:18:01 D ournotes_auto.nav.navigator: 画面：暂停
+2026-11-02 20:18:01 D ournotes_auto.nav.navigator: 点击 重试 (639,576)
+2026-11-02 20:18:02 D ournotes_auto.nav.navigator: 画面：重试确认
+2026-11-02 20:18:02 D ournotes_auto.nav.navigator: 点击 确认重试 (782,570)
+2026-11-02 20:18:02 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 20:18:02 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 20:18:02 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 20:18:03 D ournotes_auto.player.sync: 同步成功：34 个样本，34fps，τ=0.836s，残差 1.38ms，外推误差 ±1.77ms，距到达 184ms，歌曲开始于 -1.1s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 4.33→1.38ms，比截图早 8.3ms，到达时刻 +0.7ms；首音符是 FLICK，按配置把歌曲开始时刻推后 150ms）
+2026-11-02 20:18:08 E ournotes_auto.player.guard: 生命值降到 0，整体对不上了，停止触控
+2026-11-02 20:18:08 D ournotes_auto.player.executor: 执行完毕：31 事件 / 23 批，平均迟到 0.00ms，最大 0.00ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 20:18:08 I ournotes_auto.player.session: 判定生命值归零时的画面已保存到 debug\life\100002_expert_20261102_201808.png
+2026-11-02 20:18:08 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_201808.npz
+2026-11-02 20:18:08 W ournotes_auto.player.session: 生命值归零：本局同步 34 个样本 / 34fps / 外推误差 ±1.8ms / 歌曲开始于 -1.1s；打到谱面 7060ms 就没了（若远早于谱面结尾，多半是整首错位）
+2026-11-02 20:18:08 E ournotes_auto.runner: 本局放弃：演奏中生命值降到 0（整体对不上了）
+2026-11-02 20:18:08 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 20:19:41 D ournotes_auto.nav.navigator: 画面：LIVE CLEAR
+2026-11-02 20:19:41 D ournotes_auto.nav.navigator: 点击 LIVE CLEAR (640,650)
+2026-11-02 20:19:42 D ournotes_auto.nav.navigator: 画面：结算
+2026-11-02 20:19:44 D ournotes_auto.nav.navigator: 点击 ⇄ (1212,396)
+2026-11-02 20:19:47 D ournotes_auto.runner: 本进程 1769 MB，电脑内存可用 18.1/39.8 GB，提交 30.6/47.8 GB
+2026-11-02 20:19:47 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 20:19:48 D ournotes_auto.nav.navigator: 画面：结算-奖励
+2026-11-02 20:19:48 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 20:19:50 D ournotes_auto.nav.navigator: 画面：结算-羁绊（下一步）
+2026-11-02 20:19:50 D ournotes_auto.nav.navigator: 点击 下一步 (1104,660)
+2026-11-02 20:19:51 D ournotes_auto.nav.navigator: 画面：结算-羁绊
+2026-11-02 20:19:51 D ournotes_auto.nav.navigator: 点击 再次演出 (1075,658)
+2026-11-02 20:19:52 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 20:19:55 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 20:19:55 W ournotes_auto.runner: 最近几局游戏只有 33fps（连续运行太久会越来越卡，容易同步失败、打错），重启游戏
+2026-11-02 20:19:55 W ournotes_auto.device.adb: 经 adb（127.0.0.1:16416）重启 com.bilibili.sirius.official
+2026-11-02 20:19:55 D ournotes_auto.device.mumu_ipc: 游戏重启后还没建好 display，等它出现…
+2026-11-02 20:19:56 D ournotes_auto.device.mumu_ipc: 游戏的 display_id 已就绪：5
+2026-11-02 20:19:56 D ournotes_auto.context: 重启游戏后重新解析 display_id：4 → 5
+2026-11-02 20:19:59 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 20:20:10 D ournotes_auto.nav.navigator: 还在等进入游戏：画面 未知，display_id 5，距超时还有 169s
+2026-11-02 20:20:19 D ournotes_auto.nav.navigator: 画面：标题画面
+2026-11-02 20:20:23 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 20:20:23 D ournotes_auto.nav.navigator: 还在等进入游戏：画面 未知，display_id 5，距超时还有 179s
+2026-11-02 20:20:27 D ournotes_auto.nav.navigator: 画面：标题画面
+2026-11-02 20:20:27 D ournotes_auto.nav.navigator: 点击 TAP TO START (950,585)
+2026-11-02 20:20:27 I ournotes_auto.device.minitouch: 触摸屏：display 5 的 /dev/input/event8
+2026-11-02 20:20:29 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 20:20:31 D ournotes_auto.nav.navigator: 画面：标题画面
+2026-11-02 20:20:31 D ournotes_auto.nav.navigator: 点击 TAP TO START (950,585)
+2026-11-02 20:20:34 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 20:20:34 D ournotes_auto.nav.navigator: 还在等进入游戏：画面 未知，display_id 5，距超时还有 179s
+2026-11-02 20:20:38 D ournotes_auto.nav.navigator: 画面：主界面
+2026-11-02 20:20:38 D ournotes_auto.nav.navigator: 点击 演出 (1081,650)
+2026-11-02 20:20:39 D ournotes_auto.nav.navigator: 点击 演出 (1081,650)
+2026-11-02 20:20:40 D ournotes_auto.nav.navigator: 画面：演出首页
+2026-11-02 20:20:40 D ournotes_auto.nav.navigator: 点击 自由演出 (873,348)
+2026-11-02 20:20:41 D ournotes_auto.nav.navigator: 点击 自由演出 (873,348)
+2026-11-02 20:20:43 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 20:20:43 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 20:20:43 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 20:20:44 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 20:20:46 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 20:20:48 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 20:20:48 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 20:20:48 D ournotes_auto.nav.navigator: 点击 消耗LB (920,665)
+2026-11-02 20:20:49 D ournotes_auto.nav.navigator: 画面：LB消耗设置
+2026-11-02 20:20:49 D ournotes_auto.nav.navigator: 点击 消耗 0 (317,292)
+2026-11-02 20:20:50 D ournotes_auto.nav.navigator: LB 消耗设置为 0（持有 0）
+2026-11-02 20:20:50 D ournotes_auto.nav.navigator: 点击 OK (640,658)
+2026-11-02 20:20:51 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 20:20:51 I ournotes_auto.nav.navigator: LB 用完了：消耗 0 接着打，恢复后再消耗
+2026-11-02 20:20:51 D ournotes_auto.nav.navigator: 点击 LIVE START (1140,648)
+2026-11-02 20:20:52 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 20:20:54 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 20:20:54 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 20:20:54 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 20:20:56 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 20:20:59 D ournotes_auto.player.sync: 前沿停在第 254 行 0.5s 不动，不是音符，重新找首音符
+2026-11-02 20:21:01 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 310→410 行只用了 35ms），重新等待静止
+2026-11-02 20:21:01 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 20:21:03 D ournotes_auto.player.sync: 同步成功：30 个样本，35fps，τ=0.838s，残差 3.30ms，外推误差 ±1.94ms，距到达 189ms，歌曲开始于 +7.2s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 5.38→3.30ms，比截图早 7.9ms，到达时刻 +1.3ms；首音符是 FLICK，按配置把歌曲开始时刻推后 150ms）
+2026-11-02 20:21:08 E ournotes_auto.player.guard: 生命值降到 0，整体对不上了，停止触控
+2026-11-02 20:21:08 D ournotes_auto.player.executor: 执行完毕：30 事件 / 22 批，平均迟到 0.00ms，最大 0.00ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 20:21:08 I ournotes_auto.player.session: 判定生命值归零时的画面已保存到 debug\life\100002_expert_20261102_202108.png
+2026-11-02 20:21:11 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_202108.npz
+2026-11-02 20:21:11 W ournotes_auto.player.session: 生命值归零：本局同步 30 个样本 / 35fps / 外推误差 ±1.9ms / 歌曲开始于 +7.2s；打到谱面 9186ms 就没了（若远早于谱面结尾，多半是整首错位）
+2026-11-02 20:21:11 W ournotes_auto.runner: 演奏中生命值降到 0（整体对不上了），从头重试（第 1 次）
+2026-11-02 20:21:11 D ournotes_auto.nav.navigator: 点击 暂停 (1240,38)
+2026-11-02 20:21:11 D ournotes_auto.nav.navigator: 画面：暂停
+2026-11-02 20:21:11 D ournotes_auto.nav.navigator: 点击 重试 (640,576)
+2026-11-02 20:21:12 D ournotes_auto.nav.navigator: 画面：重试确认
+2026-11-02 20:21:12 D ournotes_auto.nav.navigator: 点击 确认重试 (782,570)
+2026-11-02 20:21:12 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 20:21:12 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 20:21:12 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 20:21:13 D ournotes_auto.player.sync: 同步成功：35 个样本，34fps，τ=0.837s，残差 3.93ms，外推误差 ±1.76ms，距到达 178ms，歌曲开始于 -1.0s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 5.14→3.93ms，比截图早 7.9ms，到达时刻 +2.0ms；首音符是 FLICK，按配置把歌曲开始时刻推后 150ms）
+2026-11-02 20:21:17 E ournotes_auto.player.guard: 生命值降到 0，整体对不上了，停止触控
+2026-11-02 20:21:17 I ournotes_auto: 收到停止请求
+2026-11-02 20:21:18 D ournotes_auto.player.executor: 执行完毕：31 事件 / 23 批，平均迟到 0.00ms，最大 0.00ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 20:21:18 I ournotes_auto.player.session: 判定生命值归零时的画面已保存到 debug\life\100002_expert_20261102_202118.png
+2026-11-02 20:21:18 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_202118.npz
+2026-11-02 20:21:18 W ournotes_auto.player.session: 生命值归零：本局同步 35 个样本 / 34fps / 外推误差 ±1.8ms / 歌曲开始于 -1.0s；打到谱面 7070ms 就没了（若远早于谱面结尾，多半是整首错位）
+2026-11-02 20:21:18 E ournotes_auto.runner: 本局放弃：演奏中生命值降到 0（整体对不上了）
+2026-11-02 20:21:18 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 20:21:18 I ournotes_auto.runner: 共演奏 0 局：FC 0，AP 0，失败 2
+2026-11-02 20:21:32 D ournotes_auto: OurNotes-Auto 0.2.3.2（Python 3.14.7，Windows-11-10.0.26100-SP0，13th Gen Intel(R) Core(TM) i9-13900HX，内存可用 18.4/39.8 GB，提交 29.2/47.8 GB）：--json-log --stdin-stop -v --set device.backend=mumu --set device.mumu_path=D:/mumu/MuMuPlayer --set device.instance=1 --set device.adb_path=D:/mumu/MuMuPlayer/nx_main/adb.exe --set device.adb_serial=127.0.0.1:16416 --set device.touch=minitouch --set loop.max_plays=0 --set loop.challenge=false --set loop.arena=false --set loop.studio_claim_hours=0 --set loop.daily_claim_time= --set play.touch.great_ratio=0.0 --set play.touch.jitter_ms=0 --set play.touch.position_jitter=0 --set game.difficulty=expert --set loop.song_mode=list --set loop.song_list=壱雫空 --set game.lb_cost=null --set game.lb_auto=true --set loop.until_lb_empty=false --set game.lb_refill=false --set loop.wait_lb=false --set loop.use_skip=false --set notify.channel= run --watch-combo
+2026-11-02 20:21:32 I ournotes_auto: 开始重复刷歌
+2026-11-02 20:21:32 I ournotes_auto: 游戏已在运行
+2026-11-02 20:21:32 D ournotes_auto.charts.catalog: 曲目目录：94 首，466 个曲名
+2026-11-02 20:21:32 D ournotes_auto.device.mumu_ipc: 已连接 MuMu 实例 1（handle 1，display 5，1280x720）
+2026-11-02 20:21:33 D ournotes_auto.nav.jacket: 封面：93 张
+2026-11-02 20:21:33 I ournotes_auto.device.minitouch: 触摸屏：display 5 的 /dev/input/event8
+2026-11-02 20:21:33 D ournotes_auto.device.minitouch: minitouch 已启动（127.0.0.1:16416，/dev/input/event8，display 5，触摸屏 720x1280）
+2026-11-02 20:21:33 D ournotes_auto.context: 设备：实例 1（127.0.0.1:16416），MuMu 6.8.7.0，CPU 4 核，内存 6 GB，帧率 60，画面 1280x720，触控 minitouch，Android 15，游戏 1.1.0
+2026-11-02 20:21:33 I ournotes_auto.sources: 歌单：壱雫空 → 壹雫空（100002）EXPERT
+2026-11-02 20:21:34 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 20:21:35 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 20:21:35 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 20:21:35 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 20:21:36 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 20:21:38 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 20:21:38 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 20:21:38 D ournotes_auto.nav.navigator: 点击 消耗LB (920,665)
+2026-11-02 20:21:39 D ournotes_auto.nav.navigator: 画面：LB消耗设置
+2026-11-02 20:21:41 I ournotes_auto.nav.navigator: LB 消耗最大能选 3 个
+2026-11-02 20:21:41 D ournotes_auto.nav.navigator: LB 消耗设置为 0（持有 0）
+2026-11-02 20:21:41 D ournotes_auto.nav.navigator: 点击 OK (640,658)
+2026-11-02 20:21:42 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 20:21:42 I ournotes_auto.nav.navigator: LB 用完了：消耗 0 接着打，恢复后再消耗
+2026-11-02 20:21:42 D ournotes_auto.nav.navigator: 点击 LIVE START (1140,648)
+2026-11-02 20:21:43 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 20:21:45 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 20:21:45 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 20:21:45 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 20:21:46 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 20:21:48 D ournotes_auto.player.sync: 前沿停在第 254 行 0.5s 不动，不是音符，重新找首音符
+2026-11-02 20:21:50 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 310→496 行只用了 27ms），重新等待静止
+2026-11-02 20:21:50 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 20:21:52 D ournotes_auto.player.sync: 同步成功：38 个样本，39fps，τ=0.833s，残差 2.80ms，外推误差 ±1.68ms，距到达 177ms，歌曲开始于 +5.2s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 4.64→2.80ms，比截图早 8.0ms，到达时刻 +1.7ms；首音符是 FLICK，按配置把歌曲开始时刻推后 450ms）
+2026-11-02 20:21:57 E ournotes_auto.player.guard: 生命值降到 0，整体对不上了，停止触控
+2026-11-02 20:21:57 D ournotes_auto.player.executor: 执行完毕：29 事件 / 21 批，平均迟到 0.00ms，最大 0.00ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 20:21:57 I ournotes_auto.player.session: 判定生命值归零时的画面已保存到 debug\life\100002_expert_20261102_202157.png
+2026-11-02 20:21:58 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_202157.npz
+2026-11-02 20:21:58 W ournotes_auto.player.session: 生命值归零：本局同步 38 个样本 / 39fps / 外推误差 ±1.7ms / 歌曲开始于 +5.2s；打到谱面 7963ms 就没了（若远早于谱面结尾，多半是整首错位）
+2026-11-02 20:21:58 W ournotes_auto.runner: 演奏中生命值降到 0（整体对不上了），从头重试（第 1 次）
+2026-11-02 20:21:59 D ournotes_auto.nav.navigator: 点击 暂停 (1240,38)
+2026-11-02 20:21:59 D ournotes_auto.nav.navigator: 画面：暂停
+2026-11-02 20:21:59 D ournotes_auto.nav.navigator: 点击 重试 (640,574)
+2026-11-02 20:21:59 D ournotes_auto.nav.navigator: 画面：重试确认
+2026-11-02 20:21:59 D ournotes_auto.nav.navigator: 点击 确认重试 (781,570)
+2026-11-02 20:22:00 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 20:22:00 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 20:22:00 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 20:22:01 D ournotes_auto.player.sync: 同步成功：39 个样本，39fps，τ=0.837s，残差 1.22ms，外推误差 ±1.67ms，距到达 188ms，歌曲开始于 -0.7s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 4.17→1.22ms，比截图早 8.3ms，到达时刻 -1.0ms；首音符是 FLICK，按配置把歌曲开始时刻推后 450ms）
+2026-11-02 20:22:05 I ournotes_auto: 收到停止请求
+2026-11-02 20:22:05 D ournotes_auto.player.executor: 执行完毕：23 事件 / 16 批，平均迟到 0.00ms，最大 0.00ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 20:22:05 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_202205.npz
+2026-11-02 20:22:06 I ournotes_auto.player.session: 连击数监视：42 张截图，断连 0 次
+2026-11-02 20:22:06 I ournotes_auto.player.session: 连击数截图已保存到 debug\combo\100002_expert_20261102_202206.npz
+2026-11-02 20:22:06 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 20:22:06 I ournotes_auto.runner: 共演奏 0 局：FC 0，AP 0，失败 0
+2026-11-02 20:25:23 D ournotes_auto: OurNotes-Auto 0.2.3.2（Python 3.14.7，Windows-11-10.0.26100-SP0，13th Gen Intel(R) Core(TM) i9-13900HX，内存可用 18.4/39.8 GB，提交 29.4/47.8 GB）：--json-log --stdin-stop -v --set device.backend=mumu --set device.mumu_path=D:/mumu/MuMuPlayer --set device.instance=1 --set device.adb_path=D:/mumu/MuMuPlayer/nx_main/adb.exe --set device.adb_serial=127.0.0.1:16416 --set device.touch=minitouch --set loop.max_plays=0 --set loop.challenge=false --set loop.arena=false --set loop.studio_claim_hours=0 --set loop.daily_claim_time= --set play.touch.great_ratio=0.0 --set play.touch.jitter_ms=0 --set play.touch.position_jitter=0 --set game.difficulty=expert --set loop.song_mode=list --set loop.song_list=壱雫空 --set game.lb_cost=null --set game.lb_auto=true --set loop.until_lb_empty=false --set game.lb_refill=false --set loop.wait_lb=false --set loop.use_skip=false --set notify.channel= run --watch-combo
+2026-11-02 20:25:23 I ournotes_auto: 开始重复刷歌
+2026-11-02 20:25:23 I ournotes_auto: 游戏已在运行
+2026-11-02 20:25:24 D ournotes_auto.charts.catalog: 曲目目录：94 首，466 个曲名
+2026-11-02 20:25:24 D ournotes_auto.device.mumu_ipc: 已连接 MuMu 实例 1（handle 1，display 5，1280x720）
+2026-11-02 20:25:24 D ournotes_auto.nav.jacket: 封面：93 张
+2026-11-02 20:25:24 I ournotes_auto.device.minitouch: 触摸屏：display 5 的 /dev/input/event8
+2026-11-02 20:25:24 D ournotes_auto.device.minitouch: minitouch 已启动（127.0.0.1:16416，/dev/input/event8，display 5，触摸屏 720x1280）
+2026-11-02 20:25:24 D ournotes_auto.context: 设备：实例 1（127.0.0.1:16416），MuMu 6.8.7.0，CPU 4 核，内存 6 GB，帧率 60，画面 1280x720，触控 minitouch，Android 15，游戏 1.1.0
+2026-11-02 20:25:24 I ournotes_auto.sources: 歌单：壱雫空 → 壹雫空（100002）EXPERT
+2026-11-02 20:25:25 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 20:25:26 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 20:25:26 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 20:25:27 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 20:25:28 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 20:25:30 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 20:25:30 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 20:25:30 D ournotes_auto.nav.navigator: 点击 消耗LB (920,665)
+2026-11-02 20:25:30 I ournotes_auto: 收到停止请求
+2026-11-02 20:25:31 D ournotes_auto.nav.navigator: 画面：LB消耗设置
+2026-11-02 20:25:31 I ournotes_auto.runner: 共演奏 0 局：FC 0，AP 0，失败 0
+2026-11-02 20:25:54 D ournotes_auto: OurNotes-Auto 0.2.3.2（Python 3.14.7，Windows-11-10.0.26100-SP0，13th Gen Intel(R) Core(TM) i9-13900HX，内存可用 18.4/39.8 GB，提交 29.4/47.8 GB）：--json-log --stdin-stop -v --set device.backend=mumu --set device.mumu_path=D:/mumu/MuMuPlayer --set device.instance=1 --set device.adb_path=D:/mumu/MuMuPlayer/nx_main/adb.exe --set device.adb_serial=127.0.0.1:16416 --set device.touch=minitouch --set loop.max_plays=0 --set loop.challenge=false --set loop.arena=false --set loop.studio_claim_hours=0 --set loop.daily_claim_time= --set play.touch.great_ratio=0.0 --set play.touch.jitter_ms=0 --set play.touch.position_jitter=0 --set game.difficulty=expert --set loop.song_mode=list --set loop.song_list=壱雫空 --set game.lb_cost=null --set game.lb_auto=false --set loop.until_lb_empty=false --set game.lb_refill=false --set loop.wait_lb=false --set loop.use_skip=false --set notify.channel= run --watch-combo
+2026-11-02 20:25:54 I ournotes_auto: 开始重复刷歌
+2026-11-02 20:25:54 I ournotes_auto: 游戏已在运行
+2026-11-02 20:25:55 D ournotes_auto.charts.catalog: 曲目目录：94 首，466 个曲名
+2026-11-02 20:25:55 D ournotes_auto.device.mumu_ipc: 已连接 MuMu 实例 1（handle 1，display 5，1280x720）
+2026-11-02 20:25:55 D ournotes_auto.nav.jacket: 封面：93 张
+2026-11-02 20:25:55 I ournotes_auto.device.minitouch: 触摸屏：display 5 的 /dev/input/event8
+2026-11-02 20:25:55 D ournotes_auto.device.minitouch: minitouch 已启动（127.0.0.1:16416，/dev/input/event8，display 5，触摸屏 720x1280）
+2026-11-02 20:25:55 D ournotes_auto.context: 设备：实例 1（127.0.0.1:16416），MuMu 6.8.7.0，CPU 4 核，内存 6 GB，帧率 60，画面 1280x720，触控 minitouch，Android 15，游戏 1.1.0
+2026-11-02 20:25:55 I ournotes_auto.sources: 歌单：壱雫空 → 壹雫空（100002）EXPERT
+2026-11-02 20:25:56 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 20:25:56 D ournotes_auto.nav.navigator: 点击 返回 (56,38)
+2026-11-02 20:25:58 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 20:25:58 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 20:25:58 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 20:25:59 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 20:26:00 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 20:26:02 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 20:26:02 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 20:26:02 D ournotes_auto.nav.navigator: 点击 LIVE START (1140,648)
+2026-11-02 20:26:04 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 20:26:06 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 20:26:06 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 20:26:06 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 20:26:07 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 20:26:08 D ournotes_auto.player.sync: 前沿停在第 254 行 0.5s 不动，不是音符，重新找首音符
+2026-11-02 20:26:10 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 358→410 行只用了 24ms），重新等待静止
+2026-11-02 20:26:10 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 20:26:13 D ournotes_auto.player.sync: 同步成功：36 个样本，40fps，τ=0.834s，残差 5.24ms，外推误差 ±1.80ms，距到达 198ms，歌曲开始于 +5.1s（到达预定提前量；首音符是 FLICK，按配置把歌曲开始时刻推后 650ms）
+2026-11-02 20:26:19 E ournotes_auto.player.guard: 生命值降到 0，整体对不上了，停止触控
+2026-11-02 20:26:20 D ournotes_auto.player.executor: 执行完毕：55 事件 / 44 批，平均迟到 0.00ms，最大 0.01ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 20:26:20 I ournotes_auto.player.session: 判定生命值归零时的画面已保存到 debug\life\100002_expert_20261102_202620.png
+2026-11-02 20:26:21 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_202620.npz
+2026-11-02 20:26:21 W ournotes_auto.player.session: 生命值归零：本局同步 36 个样本 / 40fps / 外推误差 ±1.8ms / 歌曲开始于 +5.1s；打到谱面 9890ms 就没了（若远早于谱面结尾，多半是整首错位）
+2026-11-02 20:26:21 W ournotes_auto.runner: 演奏中生命值降到 0（整体对不上了），从头重试（第 1 次）
+2026-11-02 20:26:21 D ournotes_auto.nav.navigator: 点击 暂停 (1240,38)
+2026-11-02 20:26:22 D ournotes_auto.nav.navigator: 画面：暂停
+2026-11-02 20:26:22 D ournotes_auto.nav.navigator: 点击 重试 (640,576)
+2026-11-02 20:26:22 D ournotes_auto.nav.navigator: 画面：重试确认
+2026-11-02 20:26:22 D ournotes_auto.nav.navigator: 点击 确认重试 (781,570)
+2026-11-02 20:26:23 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 20:26:23 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 20:26:23 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 20:26:24 D ournotes_auto.player.sync: 同步成功：39 个样本，40fps，τ=0.835s，残差 5.37ms，外推误差 ±1.69ms，距到达 189ms，歌曲开始于 -0.5s（到达预定提前量；首音符是 FLICK，按配置把歌曲开始时刻推后 650ms）

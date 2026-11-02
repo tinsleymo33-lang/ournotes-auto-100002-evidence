@@ -1,0 +1,744 @@
+2026-11-02 21:02:23 D ournotes_auto: OurNotes-Auto 0.2.3.2（Python 3.14.7，Windows-11-10.0.26100-SP0，13th Gen Intel(R) Core(TM) i9-13900HX，内存可用 22.0/39.8 GB，提交 24.0/47.8 GB）：--json-log --stdin-stop -v --set device.backend=mumu --set device.mumu_path=D:/mumu/MuMuPlayer --set device.instance=1 --set device.adb_path=D:/mumu/MuMuPlayer/nx_main/adb.exe --set device.adb_serial=127.0.0.1:16416 --set device.touch=minitouch --set loop.max_plays=0 --set loop.challenge=false --set loop.arena=false --set loop.studio_claim_hours=0 --set loop.daily_claim_time= --set play.touch.great_ratio=0.0 --set play.touch.jitter_ms=0 --set play.touch.position_jitter=0 --set game.difficulty=expert --set loop.song_mode=list --set loop.song_list=壱雫空 --set game.lb_cost=null --set game.lb_auto=false --set loop.until_lb_empty=false --set game.lb_refill=false --set loop.wait_lb=false --set loop.use_skip=false --set notify.channel= run --watch-combo
+2026-11-02 21:02:23 I ournotes_auto: 开始重复刷歌
+2026-11-02 21:02:23 I ournotes_auto: 游戏已在运行
+2026-11-02 21:02:23 D ournotes_auto.charts.catalog: 曲目目录：94 首，466 个曲名
+2026-11-02 21:02:24 D ournotes_auto.device.mumu_ipc: 已连接 MuMu 实例 1（handle 1，display 2，1280x720）
+2026-11-02 21:02:24 D ournotes_auto.nav.jacket: 封面：93 张
+2026-11-02 21:02:24 I ournotes_auto.device.minitouch: 触摸屏：display 2 的 /dev/input/event8
+2026-11-02 21:02:24 D ournotes_auto.device.minitouch: minitouch 已启动（127.0.0.1:16416，/dev/input/event8，display 2，触摸屏 720x1280）
+2026-11-02 21:02:24 D ournotes_auto.context: 设备：实例 1（127.0.0.1:16416），MuMu 6.8.7.0，CPU 4 核，内存 6 GB，帧率 60，画面 1280x720，触控 minitouch，Android 15，游戏 1.1.0
+2026-11-02 21:02:24 I ournotes_auto.sources: 歌单：壱雫空 → 壹雫空（100002）EXPERT
+2026-11-02 21:02:25 D ournotes_auto.nav.navigator: 画面：演出首页
+2026-11-02 21:02:25 D ournotes_auto.nav.navigator: 点击 自由演出 (873,348)
+2026-11-02 21:02:26 D ournotes_auto.nav.navigator: 点击 自由演出 (873,348)
+2026-11-02 21:02:28 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 21:02:28 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 21:02:28 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 21:02:29 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 21:02:30 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 21:02:32 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 21:02:32 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 21:02:32 D ournotes_auto.nav.navigator: 点击 LIVE START (1140,648)
+2026-11-02 21:02:33 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:02:35 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 21:02:35 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 21:02:35 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 21:02:36 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:02:38 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 164→240 行只用了 26ms），重新等待静止
+2026-11-02 21:02:38 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:02:40 D ournotes_auto.player.sync: 跟踪区出现非音符变化（首次出现在第 309 行），重新等待静止
+2026-11-02 21:02:41 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:02:44 D ournotes_auto.player.sync: 同步成功：73 个样本，38fps，τ=0.834s，残差 3.80ms，外推误差 ±1.16ms，距到达 184ms，歌曲开始于 +7.5s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 6.20→3.80ms，比截图早 8.4ms，到达时刻 -0.5ms）
+2026-11-02 21:04:12 D ournotes_auto.player.executor: 执行完毕：3221 事件 / 2890 批，平均迟到 0.00ms，最大 0.07ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 21:04:13 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_210412.npz
+2026-11-02 21:04:41 I ournotes_auto.player.session: 连击数监视：873 张截图，断连 0 次
+2026-11-02 21:04:42 I ournotes_auto.player.session: 连击数截图已保存到 debug\combo\100002_expert_20261102_210441.npz
+2026-11-02 21:04:42 D ournotes_auto.nav.navigator: 画面：LIVE CLEAR
+2026-11-02 21:04:42 D ournotes_auto.nav.navigator: 点击 LIVE CLEAR (640,650)
+2026-11-02 21:04:43 D ournotes_auto.nav.navigator: 画面：结算
+2026-11-02 21:04:44 D ournotes_auto.nav.navigator: 画面：达成奖励列表
+2026-11-02 21:04:44 D ournotes_auto.nav.navigator: 点击 关闭 (639,651)
+2026-11-02 21:04:45 D ournotes_auto.nav.navigator: 点击 关闭 (639,651)
+2026-11-02 21:04:46 D ournotes_auto.nav.navigator: 画面：结算
+2026-11-02 21:04:46 D ournotes_auto.nav.navigator: 点击 ⇄ (1212,396)
+2026-11-02 21:04:49 D ournotes_auto.records: 壹雫空 EXPERT：FAST/SLOW 84/608，相对全局近况（-0.06）最近 1 局 +0.82，只有 1 局，不按谱面修正
+2026-11-02 21:04:49 D ournotes_auto.records: FAST=84 SLOW=608 → offset 修正 -0.8ms（学习值 -6.9ms）
+2026-11-02 21:04:49 I ournotes_auto.runner: 结果：P809 G0 g0 B0 M0  COMBO 809  FAST/SLOW 84/608 AP
+2026-11-02 21:04:49 D ournotes_auto.runner: 本进程 1784 MB，电脑内存可用 21.9/39.8 GB，提交 24.5/47.8 GB
+2026-11-02 21:04:49 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:04:50 D ournotes_auto.nav.navigator: 画面：结算-奖励
+2026-11-02 21:04:50 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:04:52 D ournotes_auto.nav.navigator: 画面：结算-羁绊（下一步）
+2026-11-02 21:04:52 D ournotes_auto.nav.navigator: 点击 下一步 (1104,660)
+2026-11-02 21:04:53 D ournotes_auto.nav.navigator: 画面：结算-羁绊
+2026-11-02 21:04:53 D ournotes_auto.nav.navigator: 点击 再次演出 (1075,658)
+2026-11-02 21:04:54 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:04:57 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 21:04:57 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 21:04:57 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 21:04:58 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 21:04:58 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 21:05:00 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 21:05:00 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 21:05:00 D ournotes_auto.nav.navigator: 点击 LIVE START (1140,648)
+2026-11-02 21:05:01 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:05:04 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 21:05:04 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 21:05:04 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 21:05:04 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:05:06 D ournotes_auto.player.sync: 前沿停在第 254 行 0.5s 不动，不是音符，重新找首音符
+2026-11-02 21:05:08 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 310→496 行只用了 26ms），重新等待静止
+2026-11-02 21:05:08 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:05:12 D ournotes_auto.player.sync: 同步成功：75 个样本，39fps，τ=0.835s，残差 4.27ms，外推误差 ±1.14ms，距到达 178ms，歌曲开始于 +5.7s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 5.40→4.82ms，比截图早 8.5ms，到达时刻 -0.2ms；剔除离群样本 y=174（+18.1ms））
+2026-11-02 21:06:39 D ournotes_auto.player.executor: 执行完毕：3221 事件 / 2890 批，平均迟到 0.00ms，最大 0.08ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 21:06:40 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_210639.npz
+2026-11-02 21:07:08 I ournotes_auto.player.session: 连击数监视：873 张截图，断连 0 次
+2026-11-02 21:07:09 I ournotes_auto.player.session: 连击数截图已保存到 debug\combo\100002_expert_20261102_210708.npz
+2026-11-02 21:07:09 D ournotes_auto.nav.navigator: 画面：LIVE CLEAR
+2026-11-02 21:07:09 D ournotes_auto.nav.navigator: 点击 LIVE CLEAR (640,650)
+2026-11-02 21:07:10 D ournotes_auto.nav.navigator: 画面：结算
+2026-11-02 21:07:11 D ournotes_auto.nav.navigator: 点击 ⇄ (1212,396)
+2026-11-02 21:07:14 D ournotes_auto.records: 壹雫空 EXPERT：FAST/SLOW 7/638，相对全局近况（+0.04）最近 2 局 +0.82/+0.94，只有 2 局，不按谱面修正
+2026-11-02 21:07:14 D ournotes_auto.records: FAST=7 SLOW=638 → offset 修正 -1.0ms（学习值 -7.8ms）
+2026-11-02 21:07:14 I ournotes_auto.runner: 结果：P809 G0 g0 B0 M0  COMBO 809  FAST/SLOW 7/638 AP
+2026-11-02 21:07:14 D ournotes_auto.runner: 本进程 1788 MB，电脑内存可用 21.8/39.8 GB，提交 24.5/47.8 GB
+2026-11-02 21:07:14 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:07:15 D ournotes_auto.nav.navigator: 画面：结算-奖励
+2026-11-02 21:07:15 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:07:16 D ournotes_auto.nav.navigator: 画面：结算-羁绊（下一步）
+2026-11-02 21:07:16 D ournotes_auto.nav.navigator: 点击 下一步 (1104,660)
+2026-11-02 21:07:18 D ournotes_auto.nav.navigator: 画面：结算-羁绊
+2026-11-02 21:07:18 D ournotes_auto.nav.navigator: 点击 再次演出 (1074,658)
+2026-11-02 21:07:19 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:07:21 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 21:07:22 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 21:07:22 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 21:07:22 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 21:07:23 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 21:07:25 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 21:07:25 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 21:07:25 D ournotes_auto.nav.navigator: 点击 LIVE START (1140,648)
+2026-11-02 21:07:27 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:07:29 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 21:07:29 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 21:07:29 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 21:07:30 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:07:32 D ournotes_auto.player.sync: 前沿停在第 254 行 0.5s 不动，不是音符，重新找首音符
+2026-11-02 21:07:34 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 310→412 行只用了 26ms），重新等待静止
+2026-11-02 21:07:34 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:07:38 D ournotes_auto.player.sync: 同步成功：76 个样本，38fps，τ=0.847s，残差 5.50ms，外推误差 ±1.14ms，距到达 186ms，歌曲开始于 +6.2s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 7.42→6.30ms，比截图早 7.9ms，到达时刻 +0.5ms；剔除离群样本 y=84（+27.3ms））
+2026-11-02 21:09:05 D ournotes_auto.player.executor: 执行完毕：3221 事件 / 2890 批，平均迟到 0.00ms，最大 0.08ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 21:09:06 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_210905.npz
+2026-11-02 21:09:34 I ournotes_auto.player.session: 连击数监视：873 张截图，断连 0 次
+2026-11-02 21:09:35 I ournotes_auto.player.session: 连击数截图已保存到 debug\combo\100002_expert_20261102_210934.npz
+2026-11-02 21:09:35 D ournotes_auto.nav.navigator: 画面：LIVE CLEAR
+2026-11-02 21:09:35 D ournotes_auto.nav.navigator: 点击 LIVE CLEAR (640,650)
+2026-11-02 21:09:36 D ournotes_auto.nav.navigator: 画面：结算
+2026-11-02 21:09:37 D ournotes_auto.nav.navigator: 点击 ⇄ (1212,396)
+2026-11-02 21:09:40 I ournotes_auto.records: 壹雫空 EXPERT：FAST/SLOW 9/615，相对全局近况（+0.15）最近 3 局 +0.82/+0.94/+0.82，一直偏 SLOW → 谱面 offset +0.0 → -0.8ms（这局不修正全局；各谱面的平均 -0.01ms 移到全局）
+2026-11-02 21:09:40 I ournotes_auto.runner: 结果：P808 G1 g0 B0 M0  COMBO 809  FAST/SLOW 9/615 FC
+2026-11-02 21:09:40 D ournotes_auto.runner: 本进程 1792 MB，电脑内存可用 21.9/39.8 GB，提交 24.4/47.8 GB
+2026-11-02 21:09:40 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:09:41 D ournotes_auto.nav.navigator: 画面：结算-奖励
+2026-11-02 21:09:41 D ournotes_auto.nav.navigator: 点击 下一步 (1088,659)
+2026-11-02 21:09:42 D ournotes_auto.nav.navigator: 画面：结算-羁绊（下一步）
+2026-11-02 21:09:42 D ournotes_auto.nav.navigator: 点击 下一步 (1104,660)
+2026-11-02 21:09:44 D ournotes_auto.nav.navigator: 画面：结算-羁绊
+2026-11-02 21:09:44 D ournotes_auto.nav.navigator: 点击 再次演出 (1074,658)
+2026-11-02 21:09:45 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:09:47 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 21:09:47 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 21:09:48 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 21:09:48 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 21:09:49 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 21:09:51 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 21:09:51 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 21:09:51 D ournotes_auto.runner: 壹雫空 EXPERT 的谱面 offset -0.8ms
+2026-11-02 21:09:51 D ournotes_auto.nav.navigator: 点击 LIVE START (1140,648)
+2026-11-02 21:09:53 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:09:56 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 21:09:56 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 21:09:56 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 21:09:56 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:09:58 D ournotes_auto.player.sync: 前沿停在第 254 行 0.5s 不动，不是音符，重新找首音符
+2026-11-02 21:10:00 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 172→496 行只用了 219ms），重新等待静止
+2026-11-02 21:10:00 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:10:04 D ournotes_auto.player.sync: 同步成功：77 个样本，39fps，τ=0.835s，残差 2.04ms，外推误差 ±1.14ms，距到达 190ms，歌曲开始于 +5.7s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 4.87→2.04ms，比截图早 7.4ms，到达时刻 -1.3ms）
+2026-11-02 21:11:31 D ournotes_auto.player.executor: 执行完毕：3221 事件 / 2890 批，平均迟到 0.00ms，最大 0.43ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 21:11:32 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_211131.npz
+2026-11-02 21:12:00 I ournotes_auto.player.session: 连击数监视：873 张截图，断连 0 次
+2026-11-02 21:12:01 I ournotes_auto.player.session: 连击数截图已保存到 debug\combo\100002_expert_20261102_211200.npz
+2026-11-02 21:12:01 D ournotes_auto.nav.navigator: 画面：LIVE CLEAR
+2026-11-02 21:12:01 D ournotes_auto.nav.navigator: 点击 LIVE CLEAR (640,650)
+2026-11-02 21:12:02 D ournotes_auto.nav.navigator: 画面：结算
+2026-11-02 21:12:03 D ournotes_auto.nav.navigator: 点击 ⇄ (1212,396)
+2026-11-02 21:12:06 I ournotes_auto.records: 壹雫空 EXPERT：FAST/SLOW 84/602，相对全局近况（+0.15）最近 3 局 +0.94/+0.82/+0.60，一直偏 SLOW → 谱面 offset -0.8 → -1.4ms（这局不修正全局；各谱面的平均 -0.01ms 移到全局）
+2026-11-02 21:12:06 I ournotes_auto.runner: 结果：P809 G0 g0 B0 M0  COMBO 809  FAST/SLOW 84/602 AP
+2026-11-02 21:12:06 D ournotes_auto.runner: 本进程 1793 MB，电脑内存可用 21.9/39.8 GB，提交 24.4/47.8 GB
+2026-11-02 21:12:06 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:12:07 D ournotes_auto.nav.navigator: 画面：结算-奖励
+2026-11-02 21:12:07 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:12:08 D ournotes_auto.nav.navigator: 画面：结算-羁绊（下一步）
+2026-11-02 21:12:08 D ournotes_auto.nav.navigator: 点击 下一步 (1104,660)
+2026-11-02 21:12:10 D ournotes_auto.nav.navigator: 画面：结算-羁绊
+2026-11-02 21:12:10 D ournotes_auto.nav.navigator: 点击 再次演出 (1074,658)
+2026-11-02 21:12:11 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:12:14 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 21:12:14 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 21:12:14 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 21:12:15 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 21:12:15 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 21:12:17 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 21:12:17 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 21:12:17 D ournotes_auto.runner: 壹雫空 EXPERT 的谱面 offset -1.4ms
+2026-11-02 21:12:17 D ournotes_auto.nav.navigator: 点击 LIVE START (1140,648)
+2026-11-02 21:12:19 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:12:21 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 21:12:21 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 21:12:21 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 21:12:22 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:12:23 D ournotes_auto.player.sync: 前沿停在第 278 行 0.5s 不动，不是音符，重新找首音符
+2026-11-02 21:12:25 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 236→452 行只用了 25ms），重新等待静止
+2026-11-02 21:12:26 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:12:29 D ournotes_auto.player.sync: 同步成功：77 个样本，39fps，τ=0.835s，残差 2.16ms，外推误差 ±1.14ms，距到达 192ms，歌曲开始于 +5.8s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 4.78→2.16ms，比截图早 7.7ms，到达时刻 -1.8ms）
+2026-11-02 21:13:56 D ournotes_auto.player.executor: 执行完毕：3221 事件 / 2890 批，平均迟到 0.00ms，最大 0.12ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 21:13:57 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_211356.npz
+2026-11-02 21:14:25 I ournotes_auto.player.session: 连击数监视：873 张截图，断连 0 次
+2026-11-02 21:14:26 I ournotes_auto.player.session: 连击数截图已保存到 debug\combo\100002_expert_20261102_211425.npz
+2026-11-02 21:14:26 D ournotes_auto.nav.navigator: 画面：LIVE CLEAR
+2026-11-02 21:14:26 D ournotes_auto.nav.navigator: 点击 LIVE CLEAR (640,650)
+2026-11-02 21:14:27 D ournotes_auto.nav.navigator: 画面：结算
+2026-11-02 21:14:28 D ournotes_auto.nav.navigator: 点击 ⇄ (1212,396)
+2026-11-02 21:14:31 I ournotes_auto.records: 壹雫空 EXPERT：FAST/SLOW 84/600，相对全局近况（+0.15）最近 3 局 +0.82/+0.60/+0.60，一直偏 SLOW → 谱面 offset -1.4 → -2.0ms（这局不修正全局）
+2026-11-02 21:14:31 I ournotes_auto.runner: 结果：P809 G0 g0 B0 M0  COMBO 809  FAST/SLOW 84/600 AP
+2026-11-02 21:14:31 D ournotes_auto.runner: 本进程 1794 MB，电脑内存可用 21.8/39.8 GB，提交 24.4/47.8 GB
+2026-11-02 21:14:31 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:14:32 D ournotes_auto.nav.navigator: 画面：结算-奖励
+2026-11-02 21:14:32 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:14:34 D ournotes_auto.nav.navigator: 画面：结算-羁绊（下一步）
+2026-11-02 21:14:34 D ournotes_auto.nav.navigator: 点击 下一步 (1104,660)
+2026-11-02 21:14:35 D ournotes_auto.nav.navigator: 画面：结算-羁绊
+2026-11-02 21:14:35 D ournotes_auto.nav.navigator: 点击 再次演出 (1074,658)
+2026-11-02 21:14:36 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:14:38 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 21:14:38 W ournotes_auto.runner: 最近几局游戏只有 39fps（连续运行太久会越来越卡，容易同步失败、打错），重启游戏
+2026-11-02 21:14:38 W ournotes_auto.device.adb: 经 adb（127.0.0.1:16416）重启 com.bilibili.sirius.official
+2026-11-02 21:14:39 D ournotes_auto.device.mumu_ipc: 游戏重启后还没建好 display，等它出现…
+2026-11-02 21:14:39 D ournotes_auto.device.mumu_ipc: 游戏的 display_id 已就绪：3
+2026-11-02 21:14:39 D ournotes_auto.context: 重启游戏后重新解析 display_id：2 → 3
+2026-11-02 21:14:43 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:14:53 D ournotes_auto.nav.navigator: 还在等进入游戏：画面 未知，display_id 3，距超时还有 169s
+2026-11-02 21:15:01 D ournotes_auto.nav.navigator: 画面：标题画面
+2026-11-02 21:15:04 D ournotes_auto.nav.navigator: 点击 TAP TO START (950,585)
+2026-11-02 21:15:04 I ournotes_auto.device.minitouch: 触摸屏：display 3 的 /dev/input/event12
+2026-11-02 21:15:07 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:15:07 D ournotes_auto.nav.navigator: 还在等进入游戏：画面 未知，display_id 3，距超时还有 179s
+2026-11-02 21:15:09 D ournotes_auto.nav.navigator: 画面：标题画面
+2026-11-02 21:15:09 D ournotes_auto.nav.navigator: 点击 TAP TO START (950,585)
+2026-11-02 21:15:12 D ournotes_auto.nav.navigator: 点击 TAP TO START (950,585)
+2026-11-02 21:15:16 D ournotes_auto.nav.navigator: 点击 TAP TO START (950,585)
+2026-11-02 21:15:17 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:15:17 D ournotes_auto.nav.navigator: 还在等进入游戏：画面 未知，display_id 3，距超时还有 179s
+2026-11-02 21:15:21 D ournotes_auto.nav.navigator: 画面：主界面
+2026-11-02 21:15:22 D ournotes_auto.nav.navigator: 点击 演出 (1081,650)
+2026-11-02 21:15:23 D ournotes_auto.nav.navigator: 点击 演出 (1081,650)
+2026-11-02 21:15:24 D ournotes_auto.nav.navigator: 画面：演出首页
+2026-11-02 21:15:24 D ournotes_auto.nav.navigator: 点击 自由演出 (873,348)
+2026-11-02 21:15:25 D ournotes_auto.nav.navigator: 点击 自由演出 (872,348)
+2026-11-02 21:15:27 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 21:15:27 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 21:15:27 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 21:15:27 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 21:15:30 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 21:15:32 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 21:15:32 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 21:15:32 D ournotes_auto.runner: 壹雫空 EXPERT 的谱面 offset -2.0ms
+2026-11-02 21:15:32 D ournotes_auto.nav.navigator: 点击 LIVE START (1140,648)
+2026-11-02 21:15:33 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:15:35 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 21:15:35 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 21:15:35 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 21:15:36 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:15:39 D ournotes_auto.player.sync: 跟踪区出现非音符变化（轨迹不符合音符运动，残差 25ms），重新等待静止
+2026-11-02 21:15:39 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:15:41 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 308→496 行只用了 25ms），重新等待静止
+2026-11-02 21:15:41 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:15:45 D ournotes_auto.player.sync: 同步成功：77 个样本，39fps，τ=0.836s，残差 3.88ms，外推误差 ±1.15ms，距到达 198ms，歌曲开始于 +7.6s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 5.58→3.88ms，比截图早 8.0ms，到达时刻 -0.6ms）
+2026-11-02 21:17:12 D ournotes_auto.player.executor: 执行完毕：3221 事件 / 2890 批，平均迟到 0.00ms，最大 0.12ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 21:17:13 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_211712.npz
+2026-11-02 21:17:41 I ournotes_auto.player.session: 连击数监视：873 张截图，断连 0 次
+2026-11-02 21:17:42 I ournotes_auto.player.session: 连击数截图已保存到 debug\combo\100002_expert_20261102_211741.npz
+2026-11-02 21:17:42 D ournotes_auto.nav.navigator: 画面：LIVE CLEAR
+2026-11-02 21:17:42 D ournotes_auto.nav.navigator: 点击 LIVE CLEAR (640,650)
+2026-11-02 21:17:43 D ournotes_auto.nav.navigator: 画面：结算
+2026-11-02 21:17:44 D ournotes_auto.nav.navigator: 点击 ⇄ (1212,396)
+2026-11-02 21:17:47 I ournotes_auto.records: 壹雫空 EXPERT：FAST/SLOW 84/433，相对全局近况（+0.15）最近 3 局 +0.60/+0.60/+0.52，一直偏 SLOW → 谱面 offset -2.0 → -2.5ms（这局不修正全局；各谱面的平均 -0.01ms 移到全局）
+2026-11-02 21:17:47 I ournotes_auto.runner: 结果：P809 G0 g0 B0 M0  COMBO 809  FAST/SLOW 84/433 AP
+2026-11-02 21:17:47 D ournotes_auto.runner: 本进程 2164 MB，电脑内存可用 21.7/39.8 GB，提交 24.9/47.8 GB
+2026-11-02 21:17:47 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:17:48 D ournotes_auto.nav.navigator: 画面：结算-奖励
+2026-11-02 21:17:48 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:17:50 D ournotes_auto.nav.navigator: 画面：结算-羁绊（下一步）
+2026-11-02 21:17:50 D ournotes_auto.nav.navigator: 点击 下一步 (1104,660)
+2026-11-02 21:17:51 D ournotes_auto.nav.navigator: 画面：结算-羁绊
+2026-11-02 21:17:51 D ournotes_auto.nav.navigator: 点击 再次演出 (1074,658)
+2026-11-02 21:17:52 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:17:54 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 21:17:55 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 21:17:55 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 21:17:56 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 21:17:56 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 21:17:58 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 21:17:58 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 21:17:58 D ournotes_auto.runner: 壹雫空 EXPERT 的谱面 offset -2.5ms
+2026-11-02 21:17:58 D ournotes_auto.nav.navigator: 点击 LIVE START (1140,648)
+2026-11-02 21:18:00 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:18:02 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 21:18:02 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 21:18:02 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 21:18:03 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:18:05 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 190→318 行只用了 26ms），重新等待静止
+2026-11-02 21:18:05 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:18:07 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 310→410 行只用了 26ms），重新等待静止
+2026-11-02 21:18:07 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:18:11 D ournotes_auto.player.sync: 同步成功：76 个样本，39fps，τ=0.836s，残差 2.57ms，外推误差 ±1.16ms，距到达 197ms，歌曲开始于 +6.3s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 5.06→2.57ms，比截图早 8.0ms，到达时刻 +1.1ms）
+2026-11-02 21:19:38 D ournotes_auto.player.executor: 执行完毕：3221 事件 / 2890 批，平均迟到 0.00ms，最大 0.08ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 21:19:39 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_211938.npz
+2026-11-02 21:20:07 I ournotes_auto.player.session: 连击数监视：873 张截图，断连 0 次
+2026-11-02 21:20:08 I ournotes_auto.player.session: 连击数截图已保存到 debug\combo\100002_expert_20261102_212007.npz
+2026-11-02 21:20:08 D ournotes_auto.nav.navigator: 画面：LIVE CLEAR
+2026-11-02 21:20:08 D ournotes_auto.nav.navigator: 点击 LIVE CLEAR (640,650)
+2026-11-02 21:20:09 D ournotes_auto.nav.navigator: 画面：结算
+2026-11-02 21:20:10 D ournotes_auto.nav.navigator: 点击 ⇄ (1212,396)
+2026-11-02 21:20:13 I ournotes_auto.records: 壹雫空 EXPERT：FAST/SLOW 84/540，相对全局近况（+0.15）最近 3 局 +0.60/+0.52/+0.58，一直偏 SLOW → 谱面 offset -2.5 → -3.1ms（这局不修正全局）
+2026-11-02 21:20:13 I ournotes_auto.runner: 结果：P809 G0 g0 B0 M0  COMBO 809  FAST/SLOW 84/540 AP
+2026-11-02 21:20:13 D ournotes_auto.runner: 本进程 2167 MB，电脑内存可用 21.4/39.8 GB，提交 25.1/47.8 GB
+2026-11-02 21:20:14 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:20:15 D ournotes_auto.nav.navigator: 画面：结算-奖励
+2026-11-02 21:20:15 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:20:16 D ournotes_auto.nav.navigator: 画面：结算-羁绊（下一步）
+2026-11-02 21:20:16 D ournotes_auto.nav.navigator: 点击 下一步 (1104,660)
+2026-11-02 21:20:17 D ournotes_auto.nav.navigator: 画面：结算-羁绊
+2026-11-02 21:20:17 D ournotes_auto.nav.navigator: 点击 再次演出 (1075,658)
+2026-11-02 21:20:18 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:20:21 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 21:20:21 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 21:20:21 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 21:20:22 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 21:20:23 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 21:20:25 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 21:20:25 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 21:20:25 D ournotes_auto.runner: 壹雫空 EXPERT 的谱面 offset -3.1ms
+2026-11-02 21:20:25 D ournotes_auto.nav.navigator: 点击 LIVE START (1140,648)
+2026-11-02 21:20:26 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:20:28 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 21:20:28 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 21:20:28 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 21:20:29 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:20:30 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 190→318 行只用了 26ms），重新等待静止
+2026-11-02 21:20:30 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:20:32 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 236→496 行只用了 56ms），重新等待静止
+2026-11-02 21:20:33 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:20:36 D ournotes_auto.player.sync: 同步成功：75 个样本，39fps，τ=0.836s，残差 3.36ms，外推误差 ±1.13ms，距到达 168ms，歌曲开始于 +5.6s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 5.59→4.09ms，比截图早 8.8ms，到达时刻 +0.3ms；剔除离群样本 y=134（-19.3ms））
+2026-11-02 21:22:03 D ournotes_auto.player.executor: 执行完毕：3221 事件 / 2890 批，平均迟到 0.00ms，最大 0.08ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 21:22:05 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_212203.npz
+2026-11-02 21:22:38 I ournotes_auto.player.session: 连击数监视：873 张截图，断连 0 次
+2026-11-02 21:22:38 I ournotes_auto.player.session: 连击数截图已保存到 debug\combo\100002_expert_20261102_212238.npz
+2026-11-02 21:22:38 D ournotes_auto.nav.navigator: 画面：LIVE CLEAR
+2026-11-02 21:22:38 D ournotes_auto.nav.navigator: 点击 LIVE CLEAR (640,650)
+2026-11-02 21:22:40 D ournotes_auto.nav.navigator: 画面：结算
+2026-11-02 21:22:41 D ournotes_auto.nav.navigator: 点击 ⇄ (1212,396)
+2026-11-02 21:22:43 I ournotes_auto.records: 壹雫空 EXPERT：FAST/SLOW 84/579，相对全局近况（+0.15）最近 3 局 +0.52/+0.58/+0.59，一直偏 SLOW → 谱面 offset -3.1 → -3.7ms（这局不修正全局；各谱面的平均 -0.01ms 移到全局）
+2026-11-02 21:22:43 I ournotes_auto.runner: 结果：P809 G0 g0 B0 M0  COMBO 809  FAST/SLOW 84/579 AP
+2026-11-02 21:22:44 D ournotes_auto.runner: 本进程 2169 MB，电脑内存可用 20.7/39.8 GB，提交 26.1/47.8 GB
+2026-11-02 21:22:44 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:22:45 D ournotes_auto.nav.navigator: 画面：结算-奖励
+2026-11-02 21:22:45 D ournotes_auto.nav.navigator: 点击 下一步 (1088,659)
+2026-11-02 21:22:46 D ournotes_auto.nav.navigator: 画面：结算-羁绊（下一步）
+2026-11-02 21:22:46 D ournotes_auto.nav.navigator: 点击 下一步 (1104,660)
+2026-11-02 21:22:47 D ournotes_auto.nav.navigator: 画面：结算-羁绊
+2026-11-02 21:22:47 D ournotes_auto.nav.navigator: 点击 再次演出 (1074,658)
+2026-11-02 21:22:49 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:22:51 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 21:22:51 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 21:22:52 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 21:22:52 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 21:22:53 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 21:22:55 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 21:22:55 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 21:22:55 D ournotes_auto.runner: 壹雫空 EXPERT 的谱面 offset -3.7ms
+2026-11-02 21:22:55 D ournotes_auto.nav.navigator: 点击 LIVE START (1140,648)
+2026-11-02 21:22:57 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:22:59 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 21:22:59 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 21:22:59 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 21:23:00 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:23:02 D ournotes_auto.player.sync: 前沿停在第 254 行 0.5s 不动，不是音符，重新找首音符
+2026-11-02 21:23:03 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 178→496 行只用了 196ms），重新等待静止
+2026-11-02 21:23:04 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:23:07 D ournotes_auto.player.sync: 同步成功：65 个样本，33fps，τ=0.835s，残差 3.29ms，外推误差 ±1.23ms，距到达 185ms，歌曲开始于 +5.9s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 5.27→3.29ms，比截图早 8.1ms，到达时刻 +0.7ms）
+2026-11-02 21:24:35 D ournotes_auto.player.executor: 执行完毕：3221 事件 / 2890 批，平均迟到 0.00ms，最大 0.11ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 21:24:36 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_212435.npz
+2026-11-02 21:25:04 I ournotes_auto.player.session: 连击数监视：873 张截图，断连 0 次
+2026-11-02 21:25:05 I ournotes_auto.player.session: 连击数截图已保存到 debug\combo\100002_expert_20261102_212504.npz
+2026-11-02 21:25:05 D ournotes_auto.nav.navigator: 画面：LIVE CLEAR
+2026-11-02 21:25:05 D ournotes_auto.nav.navigator: 点击 LIVE CLEAR (640,650)
+2026-11-02 21:25:06 D ournotes_auto.nav.navigator: 画面：结算
+2026-11-02 21:25:07 D ournotes_auto.nav.navigator: 点击 ⇄ (1212,396)
+2026-11-02 21:25:10 I ournotes_auto.records: 壹雫空 EXPERT：FAST/SLOW 93/158，相对全局近况（+0.15）最近 3 局 +0.58/+0.59/+0.11，一直偏 SLOW → 谱面 offset -3.7 → -3.8ms（这局不修正全局）
+2026-11-02 21:25:10 I ournotes_auto.runner: 结果：P809 G0 g0 B0 M0  COMBO 809  FAST/SLOW 93/158 AP
+2026-11-02 21:25:10 D ournotes_auto.runner: 本进程 2170 MB，电脑内存可用 20.4/39.8 GB，提交 26.3/47.8 GB
+2026-11-02 21:25:10 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:25:11 D ournotes_auto.nav.navigator: 画面：结算-奖励
+2026-11-02 21:25:11 D ournotes_auto.nav.navigator: 点击 下一步 (1088,659)
+2026-11-02 21:25:13 D ournotes_auto.nav.navigator: 画面：结算-羁绊（下一步）
+2026-11-02 21:25:13 D ournotes_auto.nav.navigator: 点击 下一步 (1104,660)
+2026-11-02 21:25:14 D ournotes_auto.nav.navigator: 画面：结算-羁绊
+2026-11-02 21:25:14 D ournotes_auto.nav.navigator: 点击 再次演出 (1074,658)
+2026-11-02 21:25:15 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:25:17 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 21:25:18 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 21:25:18 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 21:25:19 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 21:25:19 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 21:25:21 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 21:25:21 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 21:25:21 D ournotes_auto.runner: 壹雫空 EXPERT 的谱面 offset -3.8ms
+2026-11-02 21:25:21 D ournotes_auto.nav.navigator: 点击 LIVE START (1140,648)
+2026-11-02 21:25:23 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:25:25 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 21:25:25 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 21:25:25 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 21:25:26 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:25:28 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 190→318 行只用了 26ms），重新等待静止
+2026-11-02 21:25:28 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:25:30 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 308→410 行只用了 27ms），重新等待静止
+2026-11-02 21:25:30 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:25:34 D ournotes_auto.player.sync: 同步成功：76 个样本，39fps，τ=0.835s，残差 4.27ms，外推误差 ±1.14ms，距到达 179ms，歌曲开始于 +6.2s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 5.39→4.27ms，比截图早 8.3ms，到达时刻 -0.1ms）
+2026-11-02 21:27:01 D ournotes_auto.player.executor: 执行完毕：3221 事件 / 2890 批，平均迟到 0.00ms，最大 0.12ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 21:27:02 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_212701.npz
+2026-11-02 21:27:30 I ournotes_auto.player.session: 连击数监视：873 张截图，断连 0 次
+2026-11-02 21:27:31 I ournotes_auto.player.session: 连击数截图已保存到 debug\combo\100002_expert_20261102_212730.npz
+2026-11-02 21:27:31 D ournotes_auto.nav.navigator: 画面：LIVE CLEAR
+2026-11-02 21:27:31 D ournotes_auto.nav.navigator: 点击 LIVE CLEAR (640,650)
+2026-11-02 21:27:33 D ournotes_auto.nav.navigator: 画面：结算
+2026-11-02 21:27:34 D ournotes_auto.nav.navigator: 点击 ⇄ (1212,396)
+2026-11-02 21:27:36 D ournotes_auto.records: 壹雫空 EXPERT：FAST/SLOW 87/115，相对全局近况（+0.15）最近 3 局 +0.59/+0.11/-0.01，有正有负，不按谱面修正
+2026-11-02 21:27:36 D ournotes_auto.records: FAST=87 SLOW=115 → offset 修正 -0.1ms（学习值 -8.0ms）
+2026-11-02 21:27:36 I ournotes_auto.runner: 结果：P809 G0 g0 B0 M0  COMBO 809  FAST/SLOW 87/115 AP
+2026-11-02 21:27:37 D ournotes_auto.runner: 本进程 2170 MB，电脑内存可用 21.0/39.8 GB，提交 26.3/47.8 GB
+2026-11-02 21:27:37 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:27:38 D ournotes_auto.nav.navigator: 画面：结算-奖励
+2026-11-02 21:27:38 D ournotes_auto.nav.navigator: 点击 下一步 (1088,659)
+2026-11-02 21:27:39 D ournotes_auto.nav.navigator: 画面：结算-羁绊（下一步）
+2026-11-02 21:27:39 D ournotes_auto.nav.navigator: 点击 下一步 (1104,660)
+2026-11-02 21:27:40 D ournotes_auto.nav.navigator: 画面：结算-羁绊
+2026-11-02 21:27:40 D ournotes_auto.nav.navigator: 点击 再次演出 (1074,658)
+2026-11-02 21:27:41 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:27:44 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 21:27:44 W ournotes_auto.runner: 重启游戏后出帧率还是只有 39fps（电脑太忙或模拟器限了帧率？），不再因为卡顿重启
+2026-11-02 21:27:44 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 21:27:44 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 21:27:45 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 21:27:46 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 21:27:48 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 21:27:48 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 21:27:48 D ournotes_auto.runner: 壹雫空 EXPERT 的谱面 offset -3.8ms
+2026-11-02 21:27:48 D ournotes_auto.nav.navigator: 点击 LIVE START (1140,648)
+2026-11-02 21:27:49 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:27:52 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 21:27:52 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 21:27:52 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 21:27:52 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:27:54 D ournotes_auto.player.sync: 前沿停在第 292 行 0.5s 不动，不是音符，重新找首音符
+2026-11-02 21:27:56 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 266→496 行只用了 27ms），重新等待静止
+2026-11-02 21:27:56 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:28:00 D ournotes_auto.player.sync: 同步成功：77 个样本，38fps，τ=0.836s，残差 2.03ms，外推误差 ±1.13ms，距到达 172ms，歌曲开始于 +5.9s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 5.00→2.03ms，比截图早 7.9ms，到达时刻 -1.1ms）
+2026-11-02 21:29:27 D ournotes_auto.player.executor: 执行完毕：3221 事件 / 2890 批，平均迟到 0.00ms，最大 0.10ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 21:29:28 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_212927.npz
+2026-11-02 21:29:56 I ournotes_auto.player.session: 连击数监视：873 张截图，断连 0 次
+2026-11-02 21:29:57 I ournotes_auto.player.session: 连击数截图已保存到 debug\combo\100002_expert_20261102_212956.npz
+2026-11-02 21:29:57 D ournotes_auto.nav.navigator: 画面：LIVE CLEAR
+2026-11-02 21:29:57 D ournotes_auto.nav.navigator: 点击 LIVE CLEAR (640,650)
+2026-11-02 21:29:58 D ournotes_auto.nav.navigator: 画面：结算
+2026-11-02 21:29:59 D ournotes_auto.nav.navigator: 点击 ⇄ (1212,396)
+2026-11-02 21:30:02 D ournotes_auto.records: 壹雫空 EXPERT：FAST/SLOW 88/121，相对全局近况（+0.12）最近 3 局 +0.11/-0.01/+0.03，有正有负，不按谱面修正
+2026-11-02 21:30:02 D ournotes_auto.records: FAST=88 SLOW=121 → offset 修正 -0.2ms（学习值 -8.2ms）
+2026-11-02 21:30:02 I ournotes_auto.runner: 结果：P809 G0 g0 B0 M0  COMBO 809  FAST/SLOW 88/121 AP
+2026-11-02 21:30:02 D ournotes_auto.runner: 本进程 2172 MB，电脑内存可用 20.9/39.8 GB，提交 26.4/47.8 GB
+2026-11-02 21:30:02 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:30:03 D ournotes_auto.nav.navigator: 画面：结算-奖励
+2026-11-02 21:30:03 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:30:05 D ournotes_auto.nav.navigator: 画面：结算-羁绊（下一步）
+2026-11-02 21:30:05 D ournotes_auto.nav.navigator: 点击 下一步 (1104,660)
+2026-11-02 21:30:06 D ournotes_auto.nav.navigator: 画面：结算-羁绊
+2026-11-02 21:30:06 D ournotes_auto.nav.navigator: 点击 再次演出 (1074,658)
+2026-11-02 21:30:07 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:30:09 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 21:30:10 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 21:30:10 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 21:30:11 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 21:30:11 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 21:30:13 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 21:30:13 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 21:30:13 D ournotes_auto.runner: 壹雫空 EXPERT 的谱面 offset -3.8ms
+2026-11-02 21:30:13 D ournotes_auto.nav.navigator: 点击 LIVE START (1140,648)
+2026-11-02 21:30:15 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:30:18 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 21:30:18 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 21:30:18 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 21:30:18 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:30:20 D ournotes_auto.player.sync: 前沿停在第 254 行 0.5s 不动，不是音符，重新找首音符
+2026-11-02 21:30:21 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 178→496 行只用了 193ms），重新等待静止
+2026-11-02 21:30:22 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:30:25 D ournotes_auto.player.sync: 同步成功：74 个样本，38fps，τ=0.836s，残差 3.63ms，外推误差 ±1.18ms，距到达 197ms，歌曲开始于 +5.6s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 5.35→4.25ms，比截图早 8.1ms，到达时刻 +0.9ms；剔除离群样本 y=206（+17.4ms））
+2026-11-02 21:31:53 D ournotes_auto.player.executor: 执行完毕：3221 事件 / 2890 批，平均迟到 0.00ms，最大 1.50ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 21:31:54 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_213153.npz
+2026-11-02 21:32:24 I ournotes_auto.player.session: 连击数监视：873 张截图，断连 0 次
+2026-11-02 21:32:24 I ournotes_auto.player.session: 连击数截图已保存到 debug\combo\100002_expert_20261102_213224.npz
+2026-11-02 21:32:24 D ournotes_auto.nav.navigator: 画面：LIVE CLEAR
+2026-11-02 21:32:24 D ournotes_auto.nav.navigator: 点击 LIVE CLEAR (640,650)
+2026-11-02 21:32:26 D ournotes_auto.nav.navigator: 画面：结算
+2026-11-02 21:32:27 D ournotes_auto.nav.navigator: 点击 ⇄ (1212,396)
+2026-11-02 21:32:29 D ournotes_auto.records: 壹雫空 EXPERT：FAST/SLOW 135/84，相对全局近况（+0.19）最近 3 局 -0.01/+0.03/-0.42，有正有负，不按谱面修正
+2026-11-02 21:32:29 D ournotes_auto.records: FAST=135 SLOW=84 → offset 修正 +0.2ms（学习值 -8.0ms）
+2026-11-02 21:32:29 I ournotes_auto.runner: 结果：P809 G0 g0 B0 M0  COMBO 809  FAST/SLOW 135/84 AP
+2026-11-02 21:32:30 D ournotes_auto.runner: 本进程 2172 MB，电脑内存可用 16.2/39.8 GB，提交 32.1/47.8 GB
+2026-11-02 21:32:30 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:32:31 D ournotes_auto.nav.navigator: 画面：结算-奖励
+2026-11-02 21:32:31 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:32:32 D ournotes_auto.nav.navigator: 画面：结算-羁绊（下一步）
+2026-11-02 21:32:32 D ournotes_auto.nav.navigator: 点击 下一步 (1104,660)
+2026-11-02 21:32:34 D ournotes_auto.nav.navigator: 画面：结算-羁绊
+2026-11-02 21:32:34 D ournotes_auto.nav.navigator: 点击 再次演出 (1074,658)
+2026-11-02 21:32:35 D ournotes_auto.nav.navigator: 画面：玩家等级提升
+2026-11-02 21:32:35 D ournotes_auto.nav.navigator: 点击 OK (640,550)
+2026-11-02 21:32:36 D ournotes_auto.nav.navigator: 点击 OK (640,550)
+2026-11-02 21:32:37 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 21:32:37 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 21:32:38 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 21:32:38 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 21:32:39 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 21:32:41 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 21:32:41 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 21:32:41 D ournotes_auto.runner: 壹雫空 EXPERT 的谱面 offset -3.8ms
+2026-11-02 21:32:41 D ournotes_auto.nav.navigator: 点击 LIVE START (1140,648)
+2026-11-02 21:32:42 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:32:44 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 21:32:44 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 21:32:44 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 21:32:45 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:32:47 D ournotes_auto.player.sync: 前沿停在第 254 行 0.5s 不动，不是音符，重新找首音符
+2026-11-02 21:32:49 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 308→496 行只用了 27ms），重新等待静止
+2026-11-02 21:32:49 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:32:53 D ournotes_auto.player.sync: 同步成功：73 个样本，38fps，τ=0.836s，残差 3.81ms，外推误差 ±1.16ms，距到达 189ms，歌曲开始于 +6.3s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 5.66→4.39ms，比截图早 7.4ms，到达时刻 -0.1ms；剔除离群样本 y=142（+17.8ms））
+2026-11-02 21:34:20 D ournotes_auto.player.executor: 执行完毕：3220 事件 / 2890 批，平均迟到 0.01ms，最大 13.06ms，>4ms 4 批，跳过移动 1，暂停时没发 0
+2026-11-02 21:34:21 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_213420.npz
+2026-11-02 21:34:51 I ournotes_auto.player.session: 连击数监视：873 张截图，断连 0 次
+2026-11-02 21:34:52 I ournotes_auto.player.session: 连击数截图已保存到 debug\combo\100002_expert_20261102_213451.npz
+2026-11-02 21:34:52 D ournotes_auto.nav.navigator: 画面：LIVE CLEAR
+2026-11-02 21:34:52 D ournotes_auto.nav.navigator: 点击 LIVE CLEAR (640,650)
+2026-11-02 21:34:53 D ournotes_auto.nav.navigator: 画面：结算
+2026-11-02 21:34:54 D ournotes_auto.nav.navigator: 点击 ⇄ (1212,396)
+2026-11-02 21:34:57 D ournotes_auto.records: 壹雫空 EXPERT：FAST/SLOW 101/109，相对全局近况（+0.11）最近 3 局 +0.03/-0.42/-0.08，有正有负，不按谱面修正
+2026-11-02 21:34:57 D ournotes_auto.records: FAST=101 SLOW=109 → offset 修正 -0.0ms（学习值 -8.0ms）
+2026-11-02 21:34:57 I ournotes_auto.runner: 结果：P809 G0 g0 B0 M0  COMBO 809  FAST/SLOW 101/109 AP
+2026-11-02 21:34:57 D ournotes_auto.runner: 本进程 2173 MB，电脑内存可用 15.9/39.8 GB，提交 32.6/47.8 GB
+2026-11-02 21:34:57 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:34:58 D ournotes_auto.nav.navigator: 画面：结算-奖励
+2026-11-02 21:34:58 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:34:59 D ournotes_auto.nav.navigator: 画面：结算-羁绊（下一步）
+2026-11-02 21:34:59 D ournotes_auto.nav.navigator: 点击 下一步 (1104,660)
+2026-11-02 21:35:01 D ournotes_auto.nav.navigator: 画面：结算-羁绊
+2026-11-02 21:35:01 D ournotes_auto.nav.navigator: 点击 再次演出 (1074,658)
+2026-11-02 21:35:02 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:35:04 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 21:35:05 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 21:35:05 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 21:35:06 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 21:35:06 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 21:35:08 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 21:35:08 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 21:35:08 D ournotes_auto.runner: 壹雫空 EXPERT 的谱面 offset -3.8ms
+2026-11-02 21:35:08 D ournotes_auto.nav.navigator: 点击 LIVE START (1140,648)
+2026-11-02 21:35:10 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:35:12 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 21:35:12 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 21:35:12 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 21:35:12 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:35:14 D ournotes_auto.player.sync: 前沿停在第 254 行 0.5s 不动，不是音符，重新找首音符
+2026-11-02 21:35:16 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 310→410 行只用了 26ms），重新等待静止
+2026-11-02 21:35:16 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:35:20 D ournotes_auto.player.sync: 同步成功：75 个样本，38fps，τ=0.836s，残差 3.66ms，外推误差 ±1.16ms，距到达 197ms，歌曲开始于 +5.8s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 5.13→3.66ms，比截图早 8.6ms，到达时刻 -0.0ms）
+2026-11-02 21:36:47 D ournotes_auto.player.executor: 执行完毕：3221 事件 / 2890 批，平均迟到 0.00ms，最大 0.34ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 21:36:48 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_213647.npz
+2026-11-02 21:37:18 I ournotes_auto.player.session: 连击数监视：873 张截图，断连 0 次
+2026-11-02 21:37:19 I ournotes_auto.player.session: 连击数截图已保存到 debug\combo\100002_expert_20261102_213718.npz
+2026-11-02 21:37:19 D ournotes_auto.nav.navigator: 画面：LIVE CLEAR
+2026-11-02 21:37:19 D ournotes_auto.nav.navigator: 点击 LIVE CLEAR (640,650)
+2026-11-02 21:37:20 D ournotes_auto.nav.navigator: 画面：结算
+2026-11-02 21:37:21 D ournotes_auto.nav.navigator: 点击 ⇄ (1212,396)
+2026-11-02 21:37:24 D ournotes_auto.records: 壹雫空 EXPERT：FAST/SLOW 84/329，相对全局近况（+0.14）最近 3 局 -0.42/-0.08/+0.45，有正有负，不按谱面修正
+2026-11-02 21:37:24 D ournotes_auto.records: FAST=84 SLOW=329 → offset 修正 -0.6ms（学习值 -8.6ms）
+2026-11-02 21:37:24 I ournotes_auto.runner: 结果：P809 G0 g0 B0 M0  COMBO 809  FAST/SLOW 84/329 AP
+2026-11-02 21:37:24 D ournotes_auto.runner: 本进程 2174 MB，电脑内存可用 15.7/39.8 GB，提交 33.8/47.8 GB
+2026-11-02 21:37:24 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:37:26 D ournotes_auto.nav.navigator: 画面：结算-奖励
+2026-11-02 21:37:26 D ournotes_auto.nav.navigator: 点击 下一步 (1088,659)
+2026-11-02 21:37:27 D ournotes_auto.nav.navigator: 画面：结算-羁绊（下一步）
+2026-11-02 21:37:27 D ournotes_auto.nav.navigator: 点击 下一步 (1104,660)
+2026-11-02 21:37:28 D ournotes_auto.nav.navigator: 画面：结算-羁绊
+2026-11-02 21:37:28 D ournotes_auto.nav.navigator: 点击 再次演出 (1074,658)
+2026-11-02 21:37:29 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:37:32 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 21:37:32 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 21:37:32 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 21:37:33 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 21:37:33 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 21:37:35 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 21:37:35 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 21:37:35 D ournotes_auto.runner: 壹雫空 EXPERT 的谱面 offset -3.8ms
+2026-11-02 21:37:35 D ournotes_auto.nav.navigator: 点击 LIVE START (1140,648)
+2026-11-02 21:37:36 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:37:39 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 21:37:39 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 21:37:39 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 21:37:39 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:37:41 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 190→318 行只用了 25ms），重新等待静止
+2026-11-02 21:37:41 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:37:43 D ournotes_auto.player.sync: 跟踪区出现非音符变化（首次出现在第 309 行），重新等待静止
+2026-11-02 21:37:43 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:37:47 D ournotes_auto.player.sync: 同步成功：75 个样本，39fps，τ=0.835s，残差 3.15ms，外推误差 ±1.16ms，距到达 194ms，歌曲开始于 +6.1s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 5.65→3.15ms，比截图早 8.0ms，到达时刻 -0.9ms）
+2026-11-02 21:39:14 D ournotes_auto.player.executor: 执行完毕：3221 事件 / 2890 批，平均迟到 0.00ms，最大 0.41ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 21:39:15 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_213914.npz
+2026-11-02 21:39:44 I ournotes_auto.player.session: 连击数监视：873 张截图，断连 0 次
+2026-11-02 21:39:45 I ournotes_auto.player.session: 连击数截图已保存到 debug\combo\100002_expert_20261102_213944.npz
+2026-11-02 21:39:45 D ournotes_auto.nav.navigator: 画面：LIVE CLEAR
+2026-11-02 21:39:45 D ournotes_auto.nav.navigator: 点击 LIVE CLEAR (640,650)
+2026-11-02 21:39:46 D ournotes_auto.nav.navigator: 画面：结算
+2026-11-02 21:39:47 D ournotes_auto.nav.navigator: 点击 ⇄ (1212,396)
+2026-11-02 21:39:50 D ournotes_auto.records: 壹雫空 EXPERT：FAST/SLOW 492/68，相对全局近况（+0.24）最近 3 局 -0.08/+0.45/-1.00，有正有负，不按谱面修正
+2026-11-02 21:39:50 D ournotes_auto.records: FAST=492 SLOW=68 → offset 修正 +0.8ms（学习值 -7.8ms）
+2026-11-02 21:39:50 I ournotes_auto.runner: 结果：P809 G0 g0 B0 M0  COMBO 809  FAST/SLOW 492/68 AP
+2026-11-02 21:39:50 D ournotes_auto.runner: 本进程 2181 MB，电脑内存可用 15.7/39.8 GB，提交 33.0/47.8 GB
+2026-11-02 21:39:51 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:39:52 D ournotes_auto.nav.navigator: 画面：结算-奖励
+2026-11-02 21:39:52 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:39:53 D ournotes_auto.nav.navigator: 画面：结算-羁绊（下一步）
+2026-11-02 21:39:53 D ournotes_auto.nav.navigator: 点击 下一步 (1104,660)
+2026-11-02 21:39:54 D ournotes_auto.nav.navigator: 画面：结算-羁绊
+2026-11-02 21:39:54 D ournotes_auto.nav.navigator: 点击 再次演出 (1075,658)
+2026-11-02 21:39:56 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:39:58 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 21:39:58 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 21:39:59 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 21:39:59 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 21:40:00 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 21:40:02 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 21:40:02 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 21:40:02 D ournotes_auto.runner: 壹雫空 EXPERT 的谱面 offset -3.8ms
+2026-11-02 21:40:02 D ournotes_auto.nav.navigator: 点击 LIVE START (1140,648)
+2026-11-02 21:40:04 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:40:06 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 21:40:06 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 21:40:06 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 21:40:07 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:40:09 D ournotes_auto.player.sync: 前沿停在第 254 行 0.5s 不动，不是音符，重新找首音符
+2026-11-02 21:40:11 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 234→496 行只用了 54ms），重新等待静止
+2026-11-02 21:40:11 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:40:14 D ournotes_auto.player.sync: 同步成功：76 个样本，39fps，τ=0.836s，残差 3.98ms，外推误差 ±1.14ms，距到达 180ms，歌曲开始于 +5.8s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 5.20→3.98ms，比截图早 7.8ms，到达时刻 +0.3ms）
+2026-11-02 21:41:42 D ournotes_auto.player.executor: 执行完毕：3221 事件 / 2890 批，平均迟到 0.00ms，最大 0.17ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 21:41:43 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_214142.npz
+2026-11-02 21:42:14 I ournotes_auto.player.session: 连击数监视：873 张截图，断连 0 次
+2026-11-02 21:42:15 I ournotes_auto.player.session: 连击数截图已保存到 debug\combo\100002_expert_20261102_214214.npz
+2026-11-02 21:42:15 D ournotes_auto.nav.navigator: 画面：LIVE CLEAR
+2026-11-02 21:42:15 D ournotes_auto.nav.navigator: 点击 LIVE CLEAR (640,650)
+2026-11-02 21:42:16 D ournotes_auto.nav.navigator: 画面：结算
+2026-11-02 21:42:17 D ournotes_auto.nav.navigator: 点击 ⇄ (1212,396)
+2026-11-02 21:42:20 D ournotes_auto.records: 壹雫空 EXPERT：FAST/SLOW 83/307，相对全局近况（+0.16）最近 3 局 +0.45/-1.00/+0.41，有正有负，不按谱面修正
+2026-11-02 21:42:20 D ournotes_auto.records: FAST=83 SLOW=307 → offset 修正 -0.6ms（学习值 -8.4ms）
+2026-11-02 21:42:20 I ournotes_auto.runner: 结果：P809 G0 g0 B0 M0  COMBO 809  FAST/SLOW 83/307 AP
+2026-11-02 21:42:20 D ournotes_auto.runner: 本进程 2178 MB，电脑内存可用 15.3/39.8 GB，提交 33.3/47.8 GB
+2026-11-02 21:42:20 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:42:22 D ournotes_auto.nav.navigator: 画面：结算-奖励
+2026-11-02 21:42:22 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:42:23 D ournotes_auto.nav.navigator: 画面：结算-羁绊（下一步）
+2026-11-02 21:42:23 D ournotes_auto.nav.navigator: 点击 下一步 (1104,660)
+2026-11-02 21:42:24 D ournotes_auto.nav.navigator: 画面：结算-羁绊
+2026-11-02 21:42:24 D ournotes_auto.nav.navigator: 点击 再次演出 (1074,658)
+2026-11-02 21:42:25 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:42:28 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 21:42:28 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 21:42:28 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 21:42:29 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 21:42:30 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 21:42:32 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 21:42:32 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 21:42:32 D ournotes_auto.runner: 壹雫空 EXPERT 的谱面 offset -3.8ms
+2026-11-02 21:42:32 D ournotes_auto.nav.navigator: 点击 LIVE START (1140,648)
+2026-11-02 21:42:33 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:42:35 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 21:42:35 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 21:42:35 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 21:42:36 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:42:37 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 190→318 行只用了 27ms），重新等待静止
+2026-11-02 21:42:37 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:42:39 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 236→452 行只用了 27ms），重新等待静止
+2026-11-02 21:42:40 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:42:43 D ournotes_auto.player.sync: 同步成功：74 个样本，38fps，τ=0.836s，残差 2.92ms，外推误差 ±1.17ms，距到达 182ms，歌曲开始于 +5.8s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 5.35→3.66ms，比截图早 8.5ms，到达时刻 +0.0ms；剔除离群样本 y=334（-16.7ms））
+2026-11-02 21:44:10 D ournotes_auto.player.executor: 执行完毕：3221 事件 / 2890 批，平均迟到 0.00ms，最大 0.18ms，>4ms 0 批，跳过移动 0，暂停时没发 0
+2026-11-02 21:44:12 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_214410.npz
+2026-11-02 21:44:42 I ournotes_auto.player.session: 连击数监视：873 张截图，断连 0 次
+2026-11-02 21:44:43 I ournotes_auto.player.session: 连击数截图已保存到 debug\combo\100002_expert_20261102_214442.npz
+2026-11-02 21:44:43 D ournotes_auto.nav.navigator: 画面：LIVE CLEAR
+2026-11-02 21:44:43 D ournotes_auto.nav.navigator: 点击 LIVE CLEAR (640,650)
+2026-11-02 21:44:44 D ournotes_auto.nav.navigator: 画面：结算
+2026-11-02 21:44:45 D ournotes_auto.nav.navigator: 点击 ⇄ (1212,396)
+2026-11-02 21:44:48 D ournotes_auto.records: 壹雫空 EXPERT：FAST/SLOW 84/253，相对全局近况（+0.22）最近 3 局 -1.00/+0.41/+0.28，有正有负，不按谱面修正
+2026-11-02 21:44:48 D ournotes_auto.records: FAST=84 SLOW=253 → offset 修正 -0.5ms（学习值 -8.9ms）
+2026-11-02 21:44:48 I ournotes_auto.runner: 结果：P809 G0 g0 B0 M0  COMBO 809  FAST/SLOW 84/253 AP
+2026-11-02 21:44:48 D ournotes_auto.runner: 本进程 2184 MB，电脑内存可用 15.4/39.8 GB，提交 33.0/47.8 GB
+2026-11-02 21:44:48 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:44:49 D ournotes_auto.nav.navigator: 画面：结算-奖励
+2026-11-02 21:44:49 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:44:50 D ournotes_auto.nav.navigator: 画面：结算-羁绊（下一步）
+2026-11-02 21:44:50 D ournotes_auto.nav.navigator: 点击 下一步 (1104,660)
+2026-11-02 21:44:52 D ournotes_auto.nav.navigator: 画面：结算-羁绊
+2026-11-02 21:44:52 D ournotes_auto.nav.navigator: 点击 再次演出 (1074,658)
+2026-11-02 21:44:53 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:44:55 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 21:44:55 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 21:44:56 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 21:44:56 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 21:44:57 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 21:44:59 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 21:44:59 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 21:44:59 D ournotes_auto.runner: 壹雫空 EXPERT 的谱面 offset -3.8ms
+2026-11-02 21:44:59 D ournotes_auto.nav.navigator: 点击 LIVE START (1140,648)
+2026-11-02 21:45:01 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:45:03 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 21:45:03 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 21:45:03 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 21:45:03 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:45:05 D ournotes_auto.player.sync: 前沿停在第 278 行 0.5s 不动，不是音符，重新找首音符
+2026-11-02 21:45:07 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 172→496 行只用了 197ms），重新等待静止
+2026-11-02 21:45:07 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:45:11 D ournotes_auto.player.sync: 同步成功：74 个样本，38fps，τ=0.835s，残差 2.47ms，外推误差 ±1.18ms，距到达 179ms，歌曲开始于 +5.8s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 5.20→3.37ms，比截图早 8.5ms，到达时刻 +0.3ms；剔除离群样本 y=432（+17.0ms））
+2026-11-02 21:46:38 D ournotes_auto.player.executor: 执行完毕：3221 事件 / 2890 批，平均迟到 0.01ms，最大 10.59ms，>4ms 2 批，跳过移动 0，暂停时没发 0
+2026-11-02 21:46:39 I ournotes_auto.player.session: 同步调试数据已保存到 debug\sync\100002_expert_20261102_214638.npz
+2026-11-02 21:47:10 I ournotes_auto.player.session: 连击数监视：873 张截图，断连 0 次
+2026-11-02 21:47:11 I ournotes_auto.player.session: 连击数截图已保存到 debug\combo\100002_expert_20261102_214710.npz
+2026-11-02 21:47:11 D ournotes_auto.nav.navigator: 画面：LIVE CLEAR
+2026-11-02 21:47:11 D ournotes_auto.nav.navigator: 点击 LIVE CLEAR (640,650)
+2026-11-02 21:47:12 D ournotes_auto.nav.navigator: 画面：结算
+2026-11-02 21:47:13 D ournotes_auto.nav.navigator: 点击 ⇄ (1212,396)
+2026-11-02 21:47:16 D ournotes_auto.records: 壹雫空 EXPERT：FAST/SLOW 516/21，相对全局近况（+0.27）最近 3 局 +0.41/+0.28/-1.20，有正有负，不按谱面修正
+2026-11-02 21:47:16 D ournotes_auto.records: FAST=516 SLOW=21 → offset 修正 +0.9ms（学习值 -8.0ms）
+2026-11-02 21:47:16 I ournotes_auto.runner: 结果：P809 G0 g0 B0 M0  COMBO 809  FAST/SLOW 516/21 AP
+2026-11-02 21:47:16 D ournotes_auto.runner: 本进程 2185 MB，电脑内存可用 14.7/39.8 GB，提交 33.8/47.8 GB
+2026-11-02 21:47:16 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:47:18 D ournotes_auto.nav.navigator: 画面：结算-奖励
+2026-11-02 21:47:18 D ournotes_auto.nav.navigator: 点击 下一步 (1088,660)
+2026-11-02 21:47:19 D ournotes_auto.nav.navigator: 画面：结算-羁绊（下一步）
+2026-11-02 21:47:19 D ournotes_auto.nav.navigator: 点击 下一步 (1104,660)
+2026-11-02 21:47:20 D ournotes_auto.nav.navigator: 画面：结算-羁绊
+2026-11-02 21:47:20 D ournotes_auto.nav.navigator: 点击 再次演出 (1074,658)
+2026-11-02 21:47:21 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:47:24 D ournotes_auto.nav.navigator: 画面：乐曲选择
+2026-11-02 21:47:24 D ournotes_auto.nav.song_select: 选中 100002
+2026-11-02 21:47:24 D ournotes_auto.nav.navigator: 点击 EXPERT (1198,555)
+2026-11-02 21:47:25 D ournotes_auto.nav.navigator: 点击 确定 (1163,658)
+2026-11-02 21:47:26 D ournotes_auto.nav.navigator: 画面：乐队确认
+2026-11-02 21:47:28 D ournotes_auto.nav.navigator: 乐队确认页：曲名 '壱雫空'，难度 expert，等级 27，封面 (100002, 0.9967610239982605)
+2026-11-02 21:47:28 I ournotes_auto.runner: 曲目：壹雫空（100002，expert，封面相似度 1.00）
+2026-11-02 21:47:28 D ournotes_auto.runner: 壹雫空 EXPERT 的谱面 offset -3.8ms
+2026-11-02 21:47:28 D ournotes_auto.nav.navigator: 点击 LIVE START (1140,648)
+2026-11-02 21:47:30 D ournotes_auto.nav.navigator: 画面：未知
+2026-11-02 21:47:32 D ournotes_auto.planner: flick#397@49706 提前 10ms 按下，避免被之后的点击认领
+2026-11-02 21:47:32 D ournotes_auto.planner: 1 个手势提前按下，避免被之后的点击认领
+2026-11-02 21:47:32 D ournotes_auto.player.session: 谱面 100002_expert：600 个手势 / 3221 个触控事件，首音符 2353ms（2 个）
+2026-11-02 21:47:32 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:47:35 D ournotes_auto.player.sync: 前沿停在第 292 行 0.5s 不动，不是音符，重新找首音符
+2026-11-02 21:47:36 D ournotes_auto.player.sync: 跟踪区出现非音符变化（前沿 172→496 行只用了 232ms），重新等待静止
+2026-11-02 21:47:36 D ournotes_auto.player.sync: 跟踪区已就绪（静止 8 帧）
+2026-11-02 21:47:40 D ournotes_auto.player.sync: 同步成功：72 个样本，37fps，τ=0.835s，残差 3.86ms，外推误差 ±1.17ms，距到达 178ms，歌曲开始于 +6.0s（到达预定提前量；截图时刻对齐到 60fps 渲染帧：残差 5.59→3.86ms，比截图早 8.1ms，到达时刻 -0.2ms）

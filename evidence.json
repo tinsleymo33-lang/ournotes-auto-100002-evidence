@@ -1,0 +1,94 @@
+{
+  "chart": {
+    "id": 100002,
+    "difficulty": "expert",
+    "title": "壱雫空",
+    "notes": 809
+  },
+  "first_hits_spans": [
+    [
+      0.0,
+      8.0
+    ],
+    [
+      14.0,
+      22.0
+    ]
+  ],
+  "bar_probe_units": [
+    9.75,
+    10.25,
+    10.75,
+    11.25,
+    11.75,
+    12.25
+  ],
+  "shared_consts": {
+    "_BAR_GAP": 1.5,
+    "_BAR_MIN_PROBES_before": 8,
+    "_BAR_MIN_PROBES_after": 5,
+    "bar_line_ratio": 0.6,
+    "tau": 0.834,
+    "judge_y": 570.672,
+    "motion_horizon_y": -37.872,
+    "unit_px": 42.8267
+  },
+  "replay_same_dump": {
+    "dump": "100002_expert_20261102_202620.npz",
+    "probes_8_tracked": "measure line",
+    "probes_8_arrival_ms": 9335.491,
+    "probes_8_t0_ms": 9333.138,
+    "probes_8_samples": 36,
+    "probes_8_sigma_ms": 1.8,
+    "probes_5_tracked": "orange FLICK body bottom edge (y 9.5 -> 83.5)",
+    "probes_5_arrival_ms": 9336.629,
+    "probes_5_t0_ms": 9334.276,
+    "probes_5_samples": 32,
+    "probes_5_tau": 0.829,
+    "delta_ms": 1138.0
+  },
+  "screen_evidence": {
+    "crop_row_of_tracked_object": 432,
+    "game_y": 439,
+    "rgb_bgr_of_row_mean": [
+      139,
+      126,
+      121
+    ],
+    "bright_span_x_in_crop": [
+      16,
+      765
+    ],
+    "crop_width": 766,
+    "note_rows_crop": [
+      35,
+      77
+    ],
+    "t_to_note_s": 1.341,
+    "t_to_line_s": 0.203
+  },
+  "before_fix_deaths": [
+    {
+      "at": "2026-11-02 19:38:39",
+      "chart_ms": 7038
+    },
+    {
+      "at": "2026-11-02 20:21:58",
+      "chart_ms": 7963
+    },
+    {
+      "at": "2026-11-02 20:26:21",
+      "chart_ms": 9890
+    }
+  ],
+  "after_fix": {
+    "rounds": "2026-11-02 21:02:44 ~ 21:47:16",
+    "plays": 18,
+    "results": "P809 G0 B0 M0 / COMBO 809，全部 AP/FC，无一局生命值归零",
+    "samples_per_sync": "65~77（多数 73~77；修复前 30~39）",
+    "sigma_ms": "±1.13~1.23（修复前 ±1.7~1.9）",
+    "crop_width_before": 766,
+    "crop_width_after": 772,
+    "crop_width_note": "多出的 6 列即重新启用的小节线采样列"
+  }
+}

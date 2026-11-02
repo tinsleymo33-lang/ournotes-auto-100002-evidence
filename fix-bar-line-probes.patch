@@ -1,0 +1,99 @@
+diff --git a/ournotes_auto/player/sync.py b/ournotes_auto/player/sync.py
+index 6a400f4..a0876c8 100644
+--- a/ournotes_auto/player/sync.py
++++ b/ournotes_auto/player/sync.py
+@@ -63,16 +63,18 @@ from ..geometry import Geometry
+ from .guard import pause_visible
+ 
+ logger = logging.getLogger(__name__)
+ 
+ _Y_SIGMA_PX = 0.35  # 前沿 y 的量化误差（像素，标准差）
+ _T_SIGMA_S = 0.004  # 截图时刻相对游戏内时间的抖动（秒，标准差）；MuMu 60fps 实测拟合残差约 5ms
+-# 检查小节线的采样位置（横向单位），去掉首音符区间两侧 _BAR_GAP 个单位以内的；剩下不到 _BAR_MIN_PROBES 个就不检查
++# 检查小节线的采样位置（横向单位），去掉首音符区间两侧 _BAR_GAP 个单位以内的；剩下不到 _BAR_MIN_PROBES 个就不检查。
++# 下限取 5 而不是 8：首音符区间几乎铺满轨道时可用采样点会掉到 6 个（100002 expert 的 [0,8]+[14,22]，只剩
++# 9.75~12.25），门槛定 8 会让检查悄悄关掉、跟踪到暗灰小节线并把到达时刻算早约 1.1s（整首提前按、数秒归零）。
+ _BAR_UNITS = np.arange(0.75, 23.5, 0.5)
+ _BAR_GAP = 1.5
+-_BAR_MIN_PROBES = 8
++_BAR_MIN_PROBES = 5
+ _BAR_MAX_H = 0.012  # 小节线最多这么高（屏高比例，720p 约 9 像素）；更高的整行变化是转场、闪光
+ # 前沿这么久没往下走就不是音符（音符在跟踪区顶部也约 50 像素/秒），是停在轨道上的提示，如比首音符先出现的倒计时
+ _STILL_S = 0.5
+ 
+ 
+ class SyncTimeout(TimeoutError):
+@@ -240,15 +242,19 @@ class NoteTracker:
+         units = [u for u in _BAR_UNITS if all(u < s.left - _BAR_GAP or u > s.right + _BAR_GAP for s in spans)]
+         if params.bar_line_ratio > 0 and len(units) >= _BAR_MIN_PROBES:
+             ys = np.arange(self.y_from, self.y_to)
+             self._probe_y = ys[:, None]
+             self._probe_x = np.clip(
+                 np.rint([[geometry.x_at(u, y) for u in units] for y in ys]).astype(np.intp), 0, w - 1
++            )
+         else:
+             self._probe_y = self._probe_x = None
++            if params.bar_line_ratio > 0:
+                 logger.debug(
++                    "小节线采样点只有 %d 个（需要 %d 个），本次不检查小节线", len(units), _BAR_MIN_PROBES
++                )
+         self._bar_h = max(2, round(_BAR_MAX_H * h))
+         width = mask.shape[1] + (0 if self._probe_x is None else self._probe_x.shape[1])
+         self.max_start_delay_s = params.max_start_delay_s if max_start_delay_s is None else max_start_delay_s
+         if baseline is not None and baseline.shape != (mask.shape[0], width, 3):
+             logger.debug("沿用的基线尺寸 %s 与跟踪区 %s 不符，改为等待静止", baseline.shape, mask.shape)
+             baseline = None
+@@ -483,12 +489,13 @@ class NoteTracker:
+         tf, lag = ts, 0.0  # 拟合用的时刻（对齐到渲染帧后比截图时刻平均早 lag）
+         if self.p.render_fps > 0 and len(ts) >= self.p.min_samples and (aligned := self._align_render(ts, ys, fit)):
+             tf, lag, new = aligned
+             notes.append(
+                 f"截图时刻对齐到 {self.p.render_fps:g}fps 渲染帧：残差 {fit.rms * 1000:.2f}→{new.rms * 1000:.2f}ms，"
+                 f"比截图早 {lag * 1000:.1f}ms，到达时刻 {(new.arrival + lag - fit.arrival) * 1000:+.1f}ms"
++            )
+             fit = new
+         # 剔除离群点（如某帧截图时间戳异常）后重新拟合
+         for _ in range(3):
+             if len(ts) <= self.p.min_samples:
+                 break
+             z = np.abs(fit.resid) * np.sqrt(fit.weights)
+@@ -530,23 +537,25 @@ class NoteTracker:
+             sigma_ms=sigma_ms,
+             lead_ms=lead_ms,
+             ok=ok,
+             frames=self._frames,
+             notes=notes,
+             fps=fps,
++        )
+         logger.debug(
+             "同步%s：%d 个样本，%.0ffps，τ=%.3fs，残差 %.2fms，外推误差 ±%.2fms，距到达 %.0fms，歌曲开始于 %+.1fs（%s）",
+             "成功" if ok else "存疑",
+             len(ts),
+             fps,
+             fit.tau,
+             rms_ms,
+             sigma_ms,
+             lead_ms,
+             delay,
+             "；".join(notes),
++        )
+         return result
+ 
+     def dump(self, path: str | Path, result: SyncResult | None = None) -> Path:
+         """保存记录的帧与参数（npz），供 ``replay_dump`` 离线分析。"""
+         if not self._record:
+             raise ValueError("没有记录任何帧（record_frames=0）")
+@@ -558,12 +567,13 @@ class NoteTracker:
+             crops=np.stack([c for _, c in self._record]),
+             box=np.array([self.y_from, self.y_to, self.x_from, self.x_to]),
+             size=np.array([self.geo.width, self.geo.height]),
+             first_ms=self.first_ms,
+             spans=np.array([[sp.left, sp.right] for sp in self.spans]),
+             arrival=np.nan if result is None else result.arrival,
++        )
+         return path
+ 
+     def wait(self, source: FrameSource, stop: threading.Event | None = None) -> SyncResult:
+         from .clock import now
+ 
+         deadline = now() + self.p.timeout_s
